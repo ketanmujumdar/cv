@@ -16,7 +16,7 @@ sidebar:
     phone: +65 81488737
     timezone: Asia/Singapore Timezone
     linkedin: https://www.linkedin.com/in/ketanmujumdar
-    pdf: http://www.africau.edu/images/default/sample.pdf
+    pdf: https://docs.google.com/document/d/1DrlSq9aDxhZv3GAd4yFPPfH2l2dKc4NF/edit?usp=sharing&ouid=114597021213955592986&rtpof=true&sd=true
 
     languages:
       - idiom: Marathi
@@ -129,27 +129,5 @@ experiences:
         - Responsible for developing and implementing package handling processes.
         - Managed various clients, while I was in University.
         - Managing across platforms.
-skills:
-    title: Skills &amp; Proficiency
-
-    toolset:
-      - name: Python & Django
-        level: 98%
-
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    

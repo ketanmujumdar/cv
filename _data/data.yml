@@ -41,122 +41,94 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Innovative Director of Engineering with 14 years of developing and applying 
+      new technologies to deliver exceptional final products. Combines technical 
+      engineering capability with effective management techniques. Dedicated to driving 
+      rapid, advanced product development through meticulous oversight of junior staff and 
+      hands-on participation. Excellent analytical and technical talents with in-depth knowledge 
+      of cloud-based infra like Google and AWS. Team leader commended for managing large budgets, 
+      supervising teams, and conducting thorough inspections.
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
+    - degree: Bachelor of Science Computer
+      university: Pune University
+      time: 2006 - 2009
+    - degree:  Diploma of Computer Engineering
+      university: Mumbai Board
+      time: 2003 - 2006
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Director of Engineering
+      time: 2021-01 - Present
+      company: Carousell, Singapore
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        - Managing three squads, Merchants, Verticals (Cars, Properties & Services), Trust & Security.
+        - Managing remote teams in India as well as local teams in Singapore.
+        - Directly & Indirectly about 38 reports (Total engineering strength is 120)
+        - Responsible for hiring engineering talent in SG and India.
+        - Working across squads/teams to get desired features delivered.
+        - Launching organization-wide initiatives, like taking on conferences, raising platform development awareness, and starting a podcast.
+        - Responsible for elevating Carousell's engineering in Singapore by publishing tech blogs, webinars & podcasts (in the works).
+    - role: Sr. Engineering Manager
+      time: 2017-11 - 2020-12
+      company: Carousell, Singapore
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
+        - Delivered listing quota, one of the biggest projects at Carousell.
+        - Managed local and remote teams, about 24 direct or indirect reports.
+        - Conducted regular 1-1 with teams responsible for delivering features, with high quality.
+        - Achieved ~15% reduction of user tickets by improving the development testing cycle.
+        - Worked with product managers to deliver value products to customers.
+        - Started weekly app releases, for a faster feature rollout.
+    - role: Sr. Manager
+      time: 2016-03 - 2017-10
+      company: MediaCorp, Singapore
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-    title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
-    papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
-
+        - Managed and maintained single sign-on for 30 websites.
+        - Scrum planning and carrying out scrum meetings for bi-weekly sprints.
+        - Co-ordinated with oﬀshore team in India.
+        - Built REST API for decoupled websites with Drupal (Today Online) Hands-on experience with Microsoft Azure and Acquia platforms.
+        - Implemented integration and sanity tests for the SSO platform.
+        - Tracked/deployed/integrated the new releases in the environment with SCM (Software Conﬁguration Management).
+        - Worked on automating deployments and releases.
+        - Managing and communicating between multiple teams.
+    - role: Release Manager
+      time: 2014-04 - 2016-03
+      company: ZALORA, Singapore
+      details: |
+        - Worked on automating the release management process from PR to testing and deployment afterward.
+        - Wrote custom CI infrastructure for deployments, smoke and nightly system test loops.
+        - Coordinated with the oﬀ-shore team in Vietnam.
+        - Worked with various stakeholders and product managers
+    - role: Senior Software Developer
+      time: 2013-03 - 2014-04
+      company: ZALORA, Singapore
+      details: |
+        - Responsible for development estimates, software design and architecture reviews.
+        - Introduced the culture of release management.
+        - Supported EM for executing scrum and retro practices.
+        - Introduced agile to the team.
+    - role: Team Lead
+      time: 2011-12 - 2013-02
+      company: BlueShores, Pune, India
+      details: |
+        - Led a team of approx. 5 engineers to build secure subscription-based WordPress solutions for financial blogs.
+        - Built and integrated SSO for various Investing channel applications.
+        - Integration of google ad network (then double click).
+        - Developed ad tech solutions for Investing Channel in ruby on rails and PHP.
+        - Onboard new clients to our subscription platform.
+    - role: Software Developer
+      time: 2009-07 - 2010-12
+      company: Remote Data Exchange, Pune
+      details: |
+        - Built a SASS solution for the vehicle-tracking system used for patrolling an area.
+        - Managed and maintained cloud-based systems such as various VPS and their networks.
+        - Localization support was built to support various languages.
+    - role: Founder
+      time: 2008-05 - 2009-11
+      company: X-gen Solutions, Pune
+      details: |
+        - Designed websites for small and local businesses.
+        - Responsible for developing and implementing package handling processes.
+        - Managed various clients, while I was in University.
+        - Managing across platforms.
 skills:
     title: Skills &amp; Proficiency
 

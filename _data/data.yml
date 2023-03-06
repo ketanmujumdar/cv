@@ -63,43 +63,43 @@ experiences:
       time: 2021-01 - 2023-01
       company: Carousell, Singapore
       details: |
-        - Managing three squads, Merchants, Verticals (Cars, Properties & Services), Trust & Security.
-        - Managing remote teams in India as well as local teams in Singapore.
-        - Directly & Indirectly about 40 reports (Total engineering strength is 85)
-        - Responsible for hiring engineering talent in SG and India.
-        - Working across squads/teams to get desired features delivered.
-        - Launching organization-wide initiatives, like taking on conferences, raising platform development awareness, and starting a podcast.
-        - Responsible for elevating Carousell’s engineering in Singapore by publishing tech blogs, webinars & podcasts.
+        - Led three cross-functional squads, namely Merchants, Verticals (Cars, Properties & Services), and Trust & Security, driving alignment and collaboration across teams to achieve business goals.
+        - Managed and developed high-performing remote teams in India and local teams in Singapore, fostering a culture of continuous improvement and innovation.
+        - Oversaw a team of 40 engineers directly and indirectly, contributing to the growth and development of the 85-strong engineering organization.
+        - Spearheaded the recruitment and retention of top engineering talent in Singapore and India, ensuring that the company maintains its competitive edge.
+        - Collaborated closely with various squads and teams to prioritize and deliver key product features, ensuring customer satisfaction and business success.
+        - Led organization-wide initiatives, such as participating in industry conferences, increasing awareness of platform development, and launching a successful podcast to promote the company's brand and values.
+        - Elevated Carousell's engineering profile in Singapore by publishing informative and engaging tech blogs, hosting webinars, and creating compelling podcasts that showcase the company's technological expertise and innovation.
     - role: Sr. Engineering Manager
       time: 2017-11 - 2020-12
       company: Carousell, Singapore
       details: |
-        - Delivered listing quota, one of the biggest projects at Carousell.
-        - Managed local and remote teams, about 24 direct or indirect reports.
-        - Conducted regular 1-1 with teams responsible for delivering features, with high quality.
-        - Achieved ~15% reduction of user tickets by improving the development testing cycle.
-        - Worked with product managers to deliver value products to customers.
-        - Started weekly app releases, for a faster feature rollout.
+        - Successfully led the delivery of the Listing Quota project, one of Carousell's most significant initiatives, ensuring timely and high-quality completion.
+        - Managed a team of 24 direct and indirect reports, both local and remote, providing guidance and support to achieve team and company objectives.
+        - Conducted regular one-on-one meetings with teams responsible for delivering features, providing constructive feedback, and coaching to drive continuous improvement and ensure high-quality output.
+        - Implemented improvements to the development testing cycle, leading to a ~15% reduction in user tickets and a better overall user experience.
+        - Collaborated with product managers to develop and deliver value-driven products that meet customer needs and expectations.
+        - Established a weekly app release cycle to accelerate the rollout of new features and improve time-to-market, resulting in increased customer satisfaction and engagement.
     - role: Sr. Manager
       time: 2016-03 - 2017-10
       company: MediaCorp, Singapore
       details: |
-        - Managed and maintained single sign-on for 30 websites.
-        - Scrum planning and carrying out scrum meetings for bi-weekly sprints.
-        - Co-ordinated with oﬀshore team in India.
-        - Built REST API for decoupled websites with Drupal (Today Online) Hands-on experience with Microsoft Azure and Acquia platforms.
-        - Implemented integration and sanity tests for the SSO platform.
-        - Tracked/deployed/integrated the new releases in the environment with SCM (Software Conﬁguration Management).
-        - Worked on automating deployments and releases.
-        - Managing and communicating between multiple teams.
+        - Oversaw the management and maintenance of single sign-on (SSO) for 30 websites, ensuring seamless user experience and security across multiple platforms.
+        - Led scrum planning and bi-weekly sprint meetings, providing clear direction and guidance to team members to achieve project objectives on time and within budget.
+        - Effectively coordinated with an offshore team in India, promoting collaboration and cross-functional communication to drive successful project outcomes.
+        - Developed REST APIs to enable decoupled website architecture using Drupal for Today Online, leveraging hands-on experience with Microsoft Azure and Acquia platforms to achieve high performance and scalability.
+        - Implemented integration and sanity tests for the SSO platform, ensuring the stability and reliability of the system for end-users.
+        - Managed the tracking, deployment, and integration of new releases in the environment using Software Configuration Management (SCM) tools, ensuring consistency and accuracy across the development and production environments.
+        - Automated deployment and release processes, streamlining the delivery of new features and reducing time-to-market.
+        - Facilitated effective communication and collaboration between multiple teams, ensuring alignment and coordination of project objectives and priorities.
     - role: Release Manager
       time: 2014-04 - 2016-03
       company: ZALORA, Singapore
       details: |
-        - Worked on automating the release management process from PR to testing and deployment afterward.
-        - Wrote custom CI infrastructure for deployments, smoke and nightly system test loops.
-        - Coordinated with the oﬀ-shore team in Vietnam.
-        - Worked with various stakeholders and product managers
+        - Led the automation of the release management process, reducing time-to-market and improving product quality.
+        - Coordinated with offshore teams and various stakeholders, fostering collaboration and driving successful project outcomes.
+        - Designed and implemented custom CI infrastructure for deployments, smoke, and nightly system test loops, enabling efficient and high-quality software development.
+        - Implemented effective project management strategies, including agile methodologies and quality assurance processes, to ensure successful project outcomes and maximize team productivity.
     - role: Senior Software Developer
       time: 2013-03 - 2014-04
       company: ZALORA, Singapore

@@ -41,13 +41,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Innovative Director of Engineering with 14 years of developing and applying 
-      new technologies to deliver exceptional final products. Combines technical 
-      engineering capability with effective management techniques. Dedicated to driving 
-      rapid, advanced product development through meticulous oversight of junior staff and 
-      hands-on participation. Excellent analytical and technical talents with in-depth knowledge 
-      of cloud-based infra like Google and AWS. Team leader commended for managing large budgets, 
-      supervising teams, and conducting thorough inspections.
+      As an innovative Director of Engineering with 14 years of experience, I have a proven track record of developing and applying cutting-edge technologies to deliver exceptional final products. I excel at combining my technical engineering expertise with effective management techniques to drive rapid, advanced product development. My leadership approach emphasizes meticulous oversight of junior staff and hands-on participation to ensure quality results. In addition to my engineering capabilities, I possess excellent analytical and technical talents, with in-depth knowledge of cloud-based infrastructures such as Google and AWS. I have a strong track record of managing large budgets, supervising teams, and conducting thorough inspections, which has earned me recognition as a highly effective team leader.Overall, my passion for innovation and dedication to excellence make me an ideal candidate for any organization seeking to drive cutting-edge product development and achieve outstanding results.
 education:
     - degree: Bachelor of Science Computer
       university: Pune University
@@ -56,17 +50,26 @@ education:
       university: Mumbai Board
       time: 2003 - 2006
 experiences:
+    - role: HOE (Laku6) & Director of Engineering (Carousell)
+      time: 2023-01 - Present
+      company: Carousell, Singapore
+      details: |
+        - I led and managed a squad of 25 engineering and product professionals at Laku 6, responsible for delivering high-quality features.
+        - At Carousell, I managed multiple squads focused on different verticals and the Merchants team.
+        - I am responsible for hiring top engineering talent in Singapore, India and Indonesia, ensuring that Carousell and Laku6 remained at the forefront of technological innovation.
+        - I worked across squads and teams to ensure timely delivery of desired features and launched several successful organization-wide initiatives, including conferences, and tech blogs.
+        - To elevate our engineering reputation, I published tech blogs, webinars, and podcasts, engaging and educating the tech community.
     - role: Director of Engineering
-      time: 2021-01 - Present
+      time: 2021-01 - 2023-01
       company: Carousell, Singapore
       details: |
         - Managing three squads, Merchants, Verticals (Cars, Properties & Services), Trust & Security.
         - Managing remote teams in India as well as local teams in Singapore.
-        - Directly & Indirectly about 38 reports (Total engineering strength is 120)
+        - Directly & Indirectly about 40 reports (Total engineering strength is 85)
         - Responsible for hiring engineering talent in SG and India.
         - Working across squads/teams to get desired features delivered.
         - Launching organization-wide initiatives, like taking on conferences, raising platform development awareness, and starting a podcast.
-        - Responsible for elevating Carousell's engineering in Singapore by publishing tech blogs, webinars & podcasts (in the works).
+        - Responsible for elevating Carousell’s engineering in Singapore by publishing tech blogs, webinars & podcasts.
     - role: Sr. Engineering Manager
       time: 2017-11 - 2020-12
       company: Carousell, Singapore

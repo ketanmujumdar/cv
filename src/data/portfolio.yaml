@@ -1,0 +1,136 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Ketan Mujumdar
+    tagline: Engineering Director
+    avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: ketanmujumdar@gmail.com.com
+    phone: +65 81488737
+    timezone: Asia/Singapore Timezone
+    linkedin: https://www.linkedin.com/in/ketanmujumdar
+    pdf: https://docs.google.com/document/d/1DrlSq9aDxhZv3GAd4yFPPfH2l2dKc4NF/edit?usp=sharing&ouid=114597021213955592986&rtpof=true&sd=true
+
+    languages:
+      - idiom: Marathi
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: Hindi
+        level: Professional
+
+    interests:
+      - item: Travelling
+        link:
+
+      - item: Cooking
+        link:
+
+      - item: Gaming
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      As an innovative Director of Engineering with 14 years of experience, I have a proven track record of developing and applying cutting-edge technologies to deliver exceptional final products. I excel at combining my technical engineering expertise with effective management techniques to drive rapid, advanced product development. My leadership approach emphasizes meticulous oversight of junior staff and hands-on participation to ensure quality results. In addition to my engineering capabilities, I possess excellent analytical and technical talents, with in-depth knowledge of cloud-based infrastructures such as Google and AWS. I have a strong track record of managing large budgets, supervising teams, and conducting thorough inspections, which has earned me recognition as a highly effective team leader.Overall, my passion for innovation and dedication to excellence make me an ideal candidate for any organization seeking to drive cutting-edge product development and achieve outstanding results.
+education:
+    - degree: Bachelor of Science Computer
+      university: Pune University
+      time: 2006 - 2009
+    - degree:  Diploma of Computer Engineering
+      university: Mumbai Board
+      time: 2003 - 2006
+experiences:
+    - role: HOE (Laku6) & Director of Engineering (Carousell)
+      time: 2023-01 - Present
+      company: Carousell, Singapore
+      details: |
+        - I led and managed a squad of 25 engineering and product professionals at Laku 6, responsible for delivering high-quality features.
+        - At Carousell, I managed multiple squads focused on different verticals and the Merchants team.
+        - I am responsible for hiring top engineering talent in Singapore, India and Indonesia, ensuring that Carousell and Laku6 remained at the forefront of technological innovation.
+        - I worked across squads and teams to ensure timely delivery of desired features and launched several successful organization-wide initiatives, including conferences, and tech blogs.
+        - To elevate our engineering reputation, I published tech blogs, webinars, and podcasts, engaging and educating the tech community.
+    - role: Director of Engineering
+      time: 2021-01 - 2023-01
+      company: Carousell, Singapore
+      details: |
+        - Led three cross-functional squads, namely Merchants, Verticals (Cars, Properties & Services), and Trust & Security, driving alignment and collaboration across teams to achieve business goals.
+        - Managed and developed high-performing remote teams in India and local teams in Singapore, fostering a culture of continuous improvement and innovation.
+        - Oversaw a team of 40 engineers directly and indirectly, contributing to the growth and development of the 85-strong engineering organization.
+        - Spearheaded the recruitment and retention of top engineering talent in Singapore and India, ensuring that the company maintains its competitive edge.
+        - Collaborated closely with various squads and teams to prioritize and deliver key product features, ensuring customer satisfaction and business success.
+        - Led organization-wide initiatives, such as participating in industry conferences, increasing awareness of platform development, and launching a successful podcast to promote the company's brand and values.
+        - Elevated Carousell's engineering profile in Singapore by publishing informative and engaging tech blogs, hosting webinars, and creating compelling podcasts that showcase the company's technological expertise and innovation.
+    - role: Sr. Engineering Manager
+      time: 2017-11 - 2020-12
+      company: Carousell, Singapore
+      details: |
+        - Successfully led the delivery of the Listing Quota project, one of Carousell's most significant initiatives, ensuring timely and high-quality completion.
+        - Managed a team of 24 direct and indirect reports, both local and remote, providing guidance and support to achieve team and company objectives.
+        - Conducted regular one-on-one meetings with teams responsible for delivering features, providing constructive feedback, and coaching to drive continuous improvement and ensure high-quality output.
+        - Implemented improvements to the development testing cycle, leading to a ~15% reduction in user tickets and a better overall user experience.
+        - Collaborated with product managers to develop and deliver value-driven products that meet customer needs and expectations.
+        - Established a weekly app release cycle to accelerate the rollout of new features and improve time-to-market, resulting in increased customer satisfaction and engagement.
+    - role: Sr. Manager
+      time: 2016-03 - 2017-10
+      company: MediaCorp, Singapore
+      details: |
+        - Oversaw the management and maintenance of single sign-on (SSO) for 30 websites, ensuring seamless user experience and security across multiple platforms.
+        - Led scrum planning and bi-weekly sprint meetings, providing clear direction and guidance to team members to achieve project objectives on time and within budget.
+        - Effectively coordinated with an offshore team in India, promoting collaboration and cross-functional communication to drive successful project outcomes.
+        - Developed REST APIs to enable decoupled website architecture using Drupal for Today Online, leveraging hands-on experience with Microsoft Azure and Acquia platforms to achieve high performance and scalability.
+        - Implemented integration and sanity tests for the SSO platform, ensuring the stability and reliability of the system for end-users.
+        - Managed the tracking, deployment, and integration of new releases in the environment using Software Configuration Management (SCM) tools, ensuring consistency and accuracy across the development and production environments.
+        - Automated deployment and release processes, streamlining the delivery of new features and reducing time-to-market.
+        - Facilitated effective communication and collaboration between multiple teams, ensuring alignment and coordination of project objectives and priorities.
+    - role: Release Manager
+      time: 2014-04 - 2016-03
+      company: ZALORA, Singapore
+      details: |
+        - Led the automation of the release management process, reducing time-to-market and improving product quality.
+        - Coordinated with offshore teams and various stakeholders, fostering collaboration and driving successful project outcomes.
+        - Designed and implemented custom CI infrastructure for deployments, smoke, and nightly system test loops, enabling efficient and high-quality software development.
+        - Implemented effective project management strategies, including agile methodologies and quality assurance processes, to ensure successful project outcomes and maximize team productivity.
+    - role: Senior Software Developer
+      time: 2013-03 - 2014-04
+      company: ZALORA, Singapore
+      details: |
+        - Responsible for development estimates, software design and architecture reviews.
+        - Introduced the culture of release management.
+        - Supported EM for executing scrum and retro practices.
+        - Introduced agile to the team.
+    - role: Team Lead
+      time: 2011-12 - 2013-02
+      company: BlueShores, Pune, India
+      details: |
+        - Led a team of approx. 5 engineers to build secure subscription-based WordPress solutions for financial blogs.
+        - Built and integrated SSO for various Investing channel applications.
+        - Integration of google ad network (then double click).
+        - Developed ad tech solutions for Investing Channel in ruby on rails and PHP.
+        - Onboard new clients to our subscription platform.
+    - role: Software Developer
+      time: 2009-07 - 2010-12
+      company: Remote Data Exchange, Pune
+      details: |
+        - Built a SASS solution for the vehicle-tracking system used for patrolling an area.
+        - Managed and maintained cloud-based systems such as various VPS and their networks.
+        - Localization support was built to support various languages.
+    - role: Founder
+      time: 2008-05 - 2009-11
+      company: X-gen Solutions, Pune
+      details: |
+        - Designed websites for small and local businesses.
+        - Responsible for developing and implementing package handling processes.
+        - Managed various clients, while I was in University.
+        - Managing across platforms.
+footer: >
+    

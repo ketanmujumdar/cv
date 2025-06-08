@@ -41,7 +41,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      As an innovative Director of Engineering with 16 years of experience, I have built a proven track record of leveraging cutting-edge technologies—including advancements in artificial intelligence—to deliver exceptional final products. I am passionate about hands-on coding and have successfully single-handedly implemented multiple high-performing websites, underscoring my commitment to innovation and my capability to drive projects from conception to completion. I excel at blending deep technical expertise with effective management techniques, mentoring junior staff while ensuring the highest quality outcomes. In addition, my in-depth knowledge of cloud-based infrastructures such as Google and AWS, coupled with strong analytical talents and rigorous oversight of large budgets, has consistently led to outstanding results. My passion for innovation and dedication to excellence make me an ideal candidate for any organization aiming to spearhead advanced product development and achieve remarkable success.
+      Proven leader with 16+ years driving platform scale, team growth, and AI-driven transformation across tech companies in APAC. Built and led teams of 50+ engineers, modernized cloud-native infrastructure (AWS, GCP), and scaled platforms across DevOps, SRE, CI/CD, and ML Ops. Passionate about developer experience, system resilience, and enabling product velocity. Trusted advisor to C-level, driving cross-functional alignment, cost optimization, and high-performance cultures.
 education:
     - degree: Bachelor of Science Computer
       university: Pune University
@@ -55,22 +55,22 @@ experiences:
       company: Carousell, Singapore
       details: |
         - I am a passionate AI advocate, actively championing cutting-edge technologies to enhance productivity and innovation among Carousell's engineering teams.
-        - I led and managed a squad of 50+ engineering and product professionals at Laku6, responsible for delivering high-quality features.
+        - Led 50+ engineers and product managers across 3 platform teams; implemented quarterly OKRs driving 90%+ delivery success.
         - At Carousell, I managed multiple squads focused on different verticals and the Merchants team.
         - I am responsible for hiring top engineering talent in Singapore, India, and Indonesia, ensuring that Carousell and Laku6 remain at the forefront of technological innovation.
-        - Since 2017, I have spearheaded the integration of AI-driven solutions that have enhanced monetization strategies and optimized payment systems, contributing significantly to revenue growth and improved customer experiences.
+        - Instituted ML-powered monetization experiments, directly impacting revenue through improved recommendation engines.
         - I collaborated across squads and teams to ensure the timely delivery of key features and launched several organization-wide initiatives, including conferences, tech blogs, webinars, and podcasts to foster industry engagement.
         - My efforts in publishing tech content have elevated our engineering reputation while engaging and educating the broader tech community.
     - role: Director of Engineering
       time: 2021-01 - 2023-01
       company: Carousell, Singapore
       details: |
-        - Led three cross-functional squads, namely Merchants, Verticals (Cars, Properties & Services), and Trust & Security, driving alignment and collaboration across teams to achieve business goals.
-        - Managed and developed high-performing remote teams in India and local teams in Singapore, fostering a culture of continuous improvement and innovation.
+        - Scaled engineering org to 85+ people; directly managed 50+ engineers across 3 platform-critical verticals (Merchants, Trust & Safety, Properties).
+        - Managed distributed teams across Singapore and India; mentored new EMs and senior ICs to scale engineering leadership.
         - Oversaw a team of 50 engineers directly and indirectly, contributing to the growth and development of the 85-strong engineering organization.
         - Spearheaded the recruitment and retention of top engineering talent in Singapore and India, ensuring that the company maintains its competitive edge.
-        - Collaborated closely with various squads and teams to prioritize and deliver key product features, ensuring customer satisfaction and business success.
-        - Led organization-wide initiatives, such as participating in industry conferences, increasing awareness of platform development, and launching a successful podcast to promote the company's brand and values.
+        - Partnered with product and data science to deliver monetization tools and ML-driven features improving ARPU across verticals.
+        - Raised Carousell’s brand through external tech talks, internal podcasts, and 10+ published engineering blogs.
         - Elevated Carousell's engineering profile in Singapore by publishing informative and engaging tech blogs, hosting webinars, and creating compelling podcasts that showcase the company's technological expertise and innovation.
     - role: Sr. Engineering Manager
       time: 2017-11 - 2020-12
@@ -79,7 +79,7 @@ experiences:
         - Successfully led the delivery of the Listing Quota project, one of Carousell's most significant initiatives, ensuring timely and high-quality completion.
         - Managed a team of 24 direct and indirect reports, both local and remote, providing guidance and support to achieve team and company objectives.
         - Conducted regular one-on-one meetings with teams responsible for delivering features, providing constructive feedback, and coaching to drive continuous improvement and ensure high-quality output.
-        - Implemented improvements to the development testing cycle, leading to a ~15% reduction in user tickets and a better overall user experience.
+        - Championed CI/CD transformation and platform reliability, contributing to 15% faster deployment cycles and reduced production incidents.
         - Collaborated with product managers to develop and deliver value-driven products that meet customer needs and expectations.
         - Established a weekly app release cycle to accelerate the rollout of new features and improve time-to-market, resulting in increased customer satisfaction and engagement.
     - role: Sr. Manager

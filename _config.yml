@@ -24,6 +24,10 @@ sass:
 # Build settings
 compress-site: yes
 
+exclude:
+  - CLAUDE.md
+  - resumes/
+
 encoding: "utf-8"
 compress_html: # - http://jch.penibelst.de/
   clippings: all

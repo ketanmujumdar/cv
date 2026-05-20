@@ -1,0 +1,129 @@
+# Base resume data - shared across all company-specific versions.
+# Company files (e.g. sonar.yml) override specific fields.
+
+basics:
+  name: Ketan Mujumdar
+  email: ketanmujumdar@gmail.com
+  phone: "+65 8148 8737"
+  location: Singapore
+  linkedin: https://www.linkedin.com/in/ketanmujumdar
+  website: https://ketanmujumdar.github.io/cv/
+
+theme:
+  primary: "#2563eb"
+  primary_light: "#dbeafe"
+  sidebar_bg: "#f8fafc"
+
+education:
+  - degree: "BSc Computer Science"
+    school: Pune University
+    period: "2006 – 2009"
+  - degree: "Diploma, Computer Engineering"
+    school: Mumbai Board
+    period: "2003 – 2006"
+
+languages:
+  - language: English
+    level: Professional
+  - language: Marathi
+    level: Native
+  - language: Hindi
+    level: Professional
+
+skills:
+  - name: Engineering Leadership
+    keywords:
+      - Org Scaling
+      - Coaching EMs
+      - Hiring & Retention
+      - Career Ladder Design
+      - Cross-functional Alignment
+  - name: Platform & Architecture
+    keywords:
+      - Distributed Systems
+      - Modular Architecture
+      - API Platforms
+      - High-Concurrency
+      - Technical Roadmaps
+  - name: Cloud & Reliability
+    keywords:
+      - AWS
+      - GCP
+      - Kubernetes
+      - CI/CD
+      - Cost Optimization
+      - SRE
+
+experience:
+  - position: VP of Engineering
+    company: YouTrip
+    location: Singapore
+    period: "Jan 2026 – Present"
+    details:
+      - Leading the complete engineering and people function for a fintech platform processing $10B+ in annual transactions, delivering measurable impact within the first months of tenure
+      - Driving an organization-wide AI revolution - established an AI-first engineering culture, deployed agentic AI workflows across development, testing, and code review, and embedded AI-powered tooling into daily engineering operations
+      - Led strategic cloud infrastructure restructuring, optimizing compute and network costs while improving scalability and platform resilience for high-volume transaction workloads
+      - Reduced critical 5xx transaction errors by 31%+, significantly improving platform reliability and customer trust across millions of active users
+      - Introduced engineering best practices across the org - standardized incident management, on-call processes, post-mortems, and operational review cadences
+      - Established the Engineering Career Ladder framework, creating clear growth pathways and coaching engineering managers on people leadership and talent development
+      - Built data-driven operational dashboards enabling real-time visibility into system health, team velocity, and business KPIs - driving a culture of continuous improvement
+      - Implemented automated security and fraud mitigation systems, significantly reducing operational costs and protecting platform integrity at scale
+
+  - position: Head of Engineering (Laku6) & Director of Engineering
+    company: Carousell
+    location: Singapore
+    period: "Jan 2023 – Dec 2025"
+    details:
+      - Led multi-layered engineering org across Platform, Infrastructure, SRE, and Product - managing through EMs and Tech Leads across Singapore, India, and Indonesia
+      - Defined engineering priorities and partnered with leadership on roadmap planning aligned with business growth
+      - Led deep cloud infrastructure optimization across compute, storage, networking, and service-level controls, achieving ~50% cost savings through targeted restructuring and right-sizing
+      - Integrated AI-assisted development workflows, improving code generation and debugging efficiency
+      - Partnered with Product and Data teams on AI/ML-powered monetization and personalization initiatives
+      - Owned payments, subscriptions, and internal APIs enabling multi-market expansion
+      - Championed developer experience through CI/CD improvements and observability enhancements
+
+  - position: Director of Engineering - Platform & Verticals
+    company: Carousell
+    location: Singapore
+    period: "Jan 2021 – Dec 2022"
+    details:
+      - Led engineering across Merchants, Trust & Safety, and Marketplace Verticals for high-scale classifieds marketplace
+      - Scaled infrastructure for high-traffic workloads, improving performance and multi-region readiness
+      - Operationalized experimentation frameworks and integrated ML models into production
+      - Streamlined CI/CD pipelines, reducing time-to-ship by ~20%
+      - Mentored senior ICs and EMs, establishing growth frameworks and feedback loops
+
+  - position: Senior Engineering Manager
+    company: Carousell
+    location: Singapore
+    period: "Nov 2017 – Dec 2020"
+    details:
+      - Led Listing Quota project - one of Carousell's most significant monetization initiatives
+      - Managed 24 direct/indirect reports across local and remote teams
+      - Championed CI/CD transformation, contributing to 15% faster deployment cycles
+      - Partnered with Product, Data, and Finance on pricing models and experimentation
+
+  - position: Senior Manager
+    company: MediaCorp
+    location: Singapore
+    period: "Mar 2016 – Oct 2017"
+    details:
+      - Led platform initiatives for meWATCH OTT streaming platform
+      - Managed SSO for 30 websites, ensuring seamless UX and security
+      - Improved CI/CD pipelines and deployment reliability for content delivery
+
+  - position: Release Manager / Senior Developer
+    company: Zalora
+    location: Singapore
+    period: "Mar 2013 – Mar 2016"
+    details:
+      - Introduced agile and release management practices across engineering org
+      - Designed CI infrastructure for deployments, smoke tests, and nightly test loops
+
+  - position: Founder / Lead Engineer
+    company: Various Startups
+    location: India
+    period: "2008 – 2012"
+    details:
+      - "Founded web development agency: ad-tech, SSO integrations, content platforms"
+      - Built cloud-based fleet tracking and fintech platforms using Ruby on Rails, PHP, JavaScript

@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Ketan Mujumdar
-    tagline: Engineering Director
+    tagline: VP of Engineering
     avatar: profile.jpeg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -41,7 +41,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Proven leader with 16+ years driving platform scale, team growth, and AI-driven transformation across tech companies in APAC. Built and led teams of 50+ engineers, modernized cloud-native infrastructure (AWS, GCP), and scaled platforms across DevOps, SRE, CI/CD, and ML Ops. Passionate about developer experience, system resilience, and enabling product velocity. Trusted advisor to C-level, driving cross-functional alignment, cost optimization, and high-performance cultures.
+      Engineering executive with 17+ years driving platform scale, data-powered operations, and AI-driven transformation across tech companies in APAC. Currently VP of Engineering at YouTrip, leading the full engineering and people function for a platform processing $10B+ in annual transactions. Built and led organizations of 70+ engineers, coached engineering managers, and modernized cloud-native infrastructure (AWS, GCP) across DevOps, SRE, CI/CD, and ML Ops. Passionate about agentic AI, code quality, data-driven decision-making, and developer experience. Track record of defining technical direction, scaling distributed teams, and driving cross-functional alignment from strategy to execution.
 education:
     - degree: Bachelor of Science Computer
       university: Pune University
@@ -50,8 +50,20 @@ education:
       university: Mumbai Board
       time: 2003 - 2006
 experiences:
+    - role: VP of Engineering
+      time: 2026-01 - Present
+      company: YouTrip, Singapore
+      details: |
+        - Leading the complete engineering and people function for a fintech platform processing $10B+ in annual transactions, delivering measurable impact within the first months of tenure.
+        - Driving an organization-wide AI revolution - established an AI-first engineering culture, deployed agentic AI workflows across development, testing, and code review, and embedded AI-powered tooling into daily engineering operations.
+        - Led strategic cloud infrastructure restructuring, optimizing compute and network costs while improving scalability and platform resilience for high-volume transaction workloads.
+        - Reduced critical 5xx transaction errors by 31%+, significantly improving platform reliability and customer trust across millions of active users.
+        - Introduced engineering best practices across the org - standardized incident management, on-call processes, post-mortems, and operational review cadences.
+        - Established the Engineering Career Ladder framework, creating clear growth pathways and coaching engineering managers on people leadership and talent development.
+        - Built data-driven operational dashboards enabling real-time visibility into system health, team velocity, and business KPIs - driving a culture of continuous improvement.
+        - Implemented automated security and fraud mitigation systems, significantly reducing operational costs and protecting platform integrity at scale.
     - role: HOE (Laku6) & Director of Engineering (Carousell, Monetization)
-      time: 2023-01 - Present
+      time: 2023-01 - 2025-12
       company: Carousell, Singapore
       details: |
         - I am a passionate AI advocate, actively championing cutting-edge technologies to enhance productivity and innovation among Carousell's engineering teams.

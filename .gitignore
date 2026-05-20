@@ -2,3 +2,7 @@ _site/
 .sass-cache/
 .jekyll-metadata
 .jekyll-cache
+resumes/.env
+resumes/applications/*.pdf
+resumes/output/*.pdf
+.playwright-mcp/

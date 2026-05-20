@@ -1,0 +1,441 @@
+{
+    "id": "019e4450-cabb-7389-b242-cb04093a51db",
+    "name": "Sonar_Engineering_Director_Data_Agentic",
+    "slug": "sonar-engineering-director",
+    "tags": [],
+    "isPublic": false,
+    "isLocked": false,
+    "data": {
+        "picture": {
+            "hidden": false,
+            "url": "",
+            "size": 64,
+            "rotation": 0,
+            "aspectRatio": 1,
+            "borderRadius": 0,
+            "borderColor": "rgba(0, 0, 0, 0)",
+            "borderWidth": 0,
+            "shadowColor": "rgba(0, 0, 0, 0.5)",
+            "shadowWidth": 0
+        },
+        "basics": {
+            "name": "Ketan Mujumdar",
+            "headline": "VP of Engineering | Data-Driven Platform Leadership | AI & Agentic Systems | Scalable Architecture",
+            "email": "ketanmujumdar@gmail.com",
+            "phone": "+65 8148 8737",
+            "location": "Singapore",
+            "website": {
+                "url": "https://ketanmujumdar.github.io/cv/",
+                "label": ""
+            },
+            "customFields": []
+        },
+        "summary": {
+            "title": "Summary",
+            "columns": 1,
+            "hidden": false,
+            "content": "<p>Engineering executive with 17+ years driving platform scale, data-powered operations, and AI-driven transformation across tech companies in APAC. Currently VP of Engineering at YouTrip, leading the full engineering and people function for a fintech platform processing $10B+ in annual transactions. Built and led organizations of 50+ engineers, coached engineering managers, and modernized cloud-native infrastructure (AWS, GCP) across DevOps, SRE, CI/CD, and ML Ops. Deep experience defining technical direction, architecture, and product roadmaps. Passionate about agentic AI, code quality, data-driven decision-making, and developer experience. Track record of scaling distributed teams, implementing agile methodologies, and driving cross-functional alignment from strategy to execution.</p>"
+        },
+        "sections": {
+            "profiles": {
+                "title": "Profiles",
+                "columns": 1,
+                "hidden": false,
+                "items": [
+                    {
+                        "id": "j2in7hfaz2fpv8yqkiworqbv",
+                        "hidden": false,
+                        "icon": "linkedin",
+                        "iconColor": "",
+                        "network": "LinkedIn",
+                        "username": "ketanmujumdar",
+                        "website": {
+                            "url": "https://sg.linkedin.com/in/ketanmujumdar",
+                            "label": "",
+                            "inlineLink": false
+                        }
+                    }
+                ]
+            },
+            "experience": {
+                "title": "Experience",
+                "columns": 1,
+                "hidden": false,
+                "items": [
+                    {
+                        "id": "youtrip_vp_2026",
+                        "hidden": false,
+                        "company": "YouTrip",
+                        "position": "VP of Engineering",
+                        "location": "Singapore",
+                        "period": "2026-01-01 - Current",
+                        "website": {
+                            "url": "https://www.you.co",
+                            "label": "",
+                            "inlineLink": false
+                        },
+                        "description": "<ul><li><p>Leading the complete engineering and people function, overseeing engineering strategy, execution, and talent management for a fintech platform processing $10B+ in annual transactions</p></li><li><p>Spearheading the AI transformation initiative across the organization, driving adoption of agentic AI and cutting-edge technologies to enhance engineering productivity and product innovation</p></li><li><p>Led AWS infrastructure expansion pilot, securing $30K in POC credits and identifying $25K/month ROI uplift through cloud optimization and data-driven cost engineering</p></li><li><p>Reduced 3DS 5xx errors by over 31%, significantly improving transaction platform stability and reliability for millions of users</p></li><li><p>Implemented Google reCAPTCHA v3 integration to mitigate high-volume spam attacks, reducing SMS operational costs to 1.7% of peak levels</p></li><li><p>Authored and drove the Engineering Career Ladder framework, establishing clear professional development pathways and coaching engineering managers in team leadership</p></li><li><p>Built Weekly Operational Review dashboard covering 8 key data categories, improving data-driven decision-making and operational visibility across the engineering organization</p></li><li><p>Managed infrastructure budget of $120K/month, delivering $25K/month in ROI uplift through strategic optimization</p></li><li><p>Maintained high platform reliability with average incident detection time of 15.67 minutes and acknowledgement time of 5.33 minutes</p></li></ul>",
+                        "roles": []
+                    },
+                    {
+                        "id": "nfk6ah3aiuj4r3avif59j9ky",
+                        "hidden": false,
+                        "company": "Laku6 & Carousell",
+                        "position": "Head of Engineering & Director of Engineering",
+                        "location": "Singapore",
+                        "period": "2023-01-01 - 2025-12-31",
+                        "website": {
+                            "url": "https://www.carousell.com",
+                            "label": "",
+                            "inlineLink": false
+                        },
+                        "description": "<ul><li><p>Led a large multi-layered engineering organization across Platform, Infrastructure, SRE, and Product, managing through Engineering Managers and Tech Leads across Singapore, India, and Indonesia</p></li><li><p>Defined engineering priorities and partnered with leadership on roadmap planning, aligning platform investments with business growth and monetization goals</p></li><li><p>Drove platform modernization and cloud migration from AWS to GCP, leading deep cost optimization across compute, storage, and network layers, achieving ~50% infrastructure cost savings</p></li><li><p>Drove engineering productivity by integrating AI-assisted development workflows, improving code generation, debugging, and internal tooling efficiency across teams</p></li><li><p>Partnered with Product and Data teams to drive AI/ML-powered monetization and personalization initiatives, operationalizing experimentation frameworks and integrating models into production systems</p></li><li><p>Owned core platform capabilities including payments, subscriptions, and internal APIs, enabling multi-market expansion, improved reliability, and scalable monetization systems</p></li><li><p>Championed developer experience through CI/CD improvements, observability enhancements, and internal tooling, significantly improving release velocity and system stability</p></li><li><p>Led hiring and development of distributed engineering teams across multiple regions, strengthening leadership bench, mentorship culture, and engineering standards</p></li></ul>",
+                        "roles": []
+                    },
+                    {
+                        "id": "rpgiwuse8f3ibzzfy2jglw3k",
+                        "hidden": false,
+                        "company": "Carousell",
+                        "position": "Director of Engineering \u2014 Platform & Verticals",
+                        "location": "Singapore",
+                        "period": "2021-01-01 - 2022-12-31",
+                        "website": {
+                            "url": "",
+                            "label": "",
+                            "inlineLink": false
+                        },
+                        "description": "<ul><li><p>Led engineering across multiple domains including Merchants, Trust & Safety, and Marketplace Verticals, driving platform and product capabilities for a high-scale classifieds marketplace across Southeast Asia</p></li><li><p>Scaled infrastructure and platform systems to support high-traffic workloads, improving system performance, reliability, and multi-region readiness</p></li><li><p>Drove development of merchant payments, subscriptions, and monetization systems, enabling new revenue streams</p></li><li><p>Partnered with Product and Data teams to operationalize experimentation frameworks and integrate ML models into production, improving conversion and monetization outcomes</p></li><li><p>Improved engineering velocity and delivery predictability by streamlining CI/CD pipelines, release processes, and cross-team coordination, reducing time-to-ship by ~20%</p></li><li><p>Strengthened engineering leadership by mentoring senior ICs and Engineering Managers, establishing structured growth frameworks and regular feedback loops</p></li><li><p>Collaborated with Trust & Safety and Platform teams to enhance transaction reliability, fraud detection, and payment observability</p></li></ul>",
+                        "roles": []
+                    },
+                    {
+                        "id": "p0tzm68ox6mvxosy0oga635m",
+                        "hidden": false,
+                        "company": "Carousell",
+                        "position": "Senior Engineering Manager",
+                        "location": "Singapore",
+                        "period": "2017-11-01 - 2020-12-31",
+                        "website": {
+                            "url": "",
+                            "label": "",
+                            "inlineLink": false
+                        },
+                        "description": "<ul><li><p>Led key platform and monetization initiatives including Listing Quota and merchant tooling, improving system reliability and enabling scalable revenue features</p></li><li><p>Improved release cycles and engineering efficiency through better CI/CD practices, deployment processes, and system observability</p></li><li><p>Partnered with Product, Data, and Finance teams to support pricing models, experimentation, and monetization strategy</p></li><li><p>Mentored engineers and tech leads, building strong ownership and operational excellence across teams</p></li></ul>",
+                        "roles": []
+                    },
+                    {
+                        "id": "ltkjq3aglscwv802nbnt8pjq",
+                        "hidden": false,
+                        "company": "MediaCorp",
+                        "position": "Senior Manager",
+                        "location": "Singapore",
+                        "period": "2016-03-01 - 2017-10-31",
+                        "website": {
+                            "url": "",
+                            "label": "",
+                            "inlineLink": false
+                        },
+                        "description": "<ul><li><p>Led product and platform initiatives for meWATCH, Mediacorp's OTT streaming platform, supporting large-scale video delivery across mobile and web</p></li><li><p>Improved CI/CD pipelines and deployment reliability for content delivery systems</p></li><li><p>Collaborated with product teams to deliver user-facing features across live TV and video-on-demand experiences</p></li></ul>",
+                        "roles": []
+                    },
+                    {
+                        "id": "h63lue3cszgyy1aujkzfeb3g",
+                        "hidden": false,
+                        "company": "Zalora",
+                        "position": "Release Manager / Senior Developer",
+                        "location": "Singapore",
+                        "period": "2013-03-01 - 2016-03-01",
+                        "website": {
+                            "url": "",
+                            "label": "",
+                            "inlineLink": false
+                        },
+                        "description": "<ul><li><p>Introduced agile and release management practices across a growing engineering organization, improving deployment consistency and delivery workflows</p></li><li><p>Designed and implemented CI infrastructure to support scalable deployments and testing across multiple services</p></li></ul>",
+                        "roles": []
+                    },
+                    {
+                        "id": "d8t04hvyun8saa45i7knscgu",
+                        "hidden": false,
+                        "company": "Various Startups",
+                        "position": "Founder / Lead Engineer",
+                        "location": "India",
+                        "period": "2008-01-01 - 2012-12-31",
+                        "website": {
+                            "url": "",
+                            "label": "",
+                            "inlineLink": false
+                        },
+                        "description": "<p>Developer \u2192 Team Lead \u2192 Founder (India)</p><ul><li><p>Founded and led a web development agency, delivering platforms across ad-tech, SSO integrations, and content systems</p></li><li><p>Built early cloud-based systems including fleet tracking and fintech blogging platforms using Ruby on Rails, PHP, and JavaScript</p></li></ul>",
+                        "roles": []
+                    }
+                ]
+            },
+            "education": {
+                "title": "Education",
+                "columns": 1,
+                "hidden": false,
+                "items": [
+                    {
+                        "id": "cu7cjruhvk8wi5eoznhs71f8",
+                        "hidden": false,
+                        "school": "Pune University",
+                        "degree": "Bachelor of Science",
+                        "area": "Computer Science",
+                        "grade": "",
+                        "location": "",
+                        "period": "2006-06-01 - 2009-06-01",
+                        "website": {
+                            "url": "",
+                            "label": "",
+                            "inlineLink": false
+                        },
+                        "description": ""
+                    },
+                    {
+                        "id": "r14ip8g53vmwo9lflw718blc",
+                        "hidden": false,
+                        "school": "Mumbai Board",
+                        "degree": "Diploma",
+                        "area": "Computer Engineering",
+                        "grade": "",
+                        "location": "",
+                        "period": "2003-01-01 - 2006-01-01",
+                        "website": {
+                            "url": "",
+                            "label": "",
+                            "inlineLink": false
+                        },
+                        "description": ""
+                    }
+                ]
+            },
+            "projects": {
+                "title": "Projects",
+                "columns": 1,
+                "hidden": false,
+                "items": []
+            },
+            "skills": {
+                "title": "Skills",
+                "columns": 1,
+                "hidden": false,
+                "items": [
+                    {
+                        "id": "knxpwfpwtvs0s76e7h62cird",
+                        "hidden": false,
+                        "icon": "",
+                        "iconColor": "",
+                        "name": "Engineering Leadership",
+                        "proficiency": "",
+                        "level": 5,
+                        "keywords": [
+                            "Org Scaling",
+                            "Coaching Engineering Managers",
+                            "Hiring & Retention",
+                            "Career Ladder Design",
+                            "Cross-functional Alignment"
+                        ]
+                    },
+                    {
+                        "id": "019d23cd-1828-767d-96df-a937a807c352",
+                        "hidden": false,
+                        "icon": "",
+                        "iconColor": "",
+                        "name": "AI, Agentic Systems & Data Platforms",
+                        "proficiency": "",
+                        "level": 4,
+                        "keywords": [
+                            "Agentic AI adoption",
+                            "ML-driven product development",
+                            "Experimentation frameworks",
+                            "Data-driven decision making",
+                            "AI-assisted development workflows"
+                        ]
+                    },
+                    {
+                        "id": "h9ejo9n99syxhs2hdjxpqp65",
+                        "hidden": false,
+                        "icon": "",
+                        "iconColor": "",
+                        "name": "Platform Engineering & Architecture",
+                        "proficiency": "",
+                        "level": 4,
+                        "keywords": [
+                            "Distributed systems",
+                            "Modular architecture",
+                            "API platforms",
+                            "High-concurrency systems",
+                            "Technical roadmap definition"
+                        ]
+                    },
+                    {
+                        "id": "ccubj5ygxroihpn3r3keay8e",
+                        "hidden": false,
+                        "icon": "",
+                        "iconColor": "",
+                        "name": "Cloud, Infrastructure & Reliability",
+                        "proficiency": "",
+                        "level": 4,
+                        "keywords": [
+                            "AWS",
+                            "GCP",
+                            "Kubernetes",
+                            "CI/CD",
+                            "Cost Optimization",
+                            "SRE"
+                        ]
+                    },
+                    {
+                        "id": "sonar_dev_practices",
+                        "hidden": false,
+                        "icon": "",
+                        "iconColor": "",
+                        "name": "Software Development & Quality",
+                        "proficiency": "",
+                        "level": 4,
+                        "keywords": [
+                            "Agile methodologies",
+                            "Automated testing",
+                            "Code quality & review",
+                            "Continuous integration/delivery",
+                            "Java",
+                            "JavaScript"
+                        ]
+                    }
+                ]
+            },
+            "languages": {
+                "title": "Languages",
+                "columns": 1,
+                "hidden": false,
+                "items": [
+                    {
+                        "id": "gcxtbvge7wdsnighou2psw3e",
+                        "hidden": false,
+                        "language": "English",
+                        "fluency": "",
+                        "level": 5
+                    },
+                    {
+                        "id": "c7p8bk81cd676q7izhc8xyys",
+                        "hidden": false,
+                        "language": "Marathi",
+                        "fluency": "",
+                        "level": 5
+                    },
+                    {
+                        "id": "aivmccj437lco52y16x8mhnr",
+                        "hidden": false,
+                        "language": "Hindi",
+                        "fluency": "",
+                        "level": 4
+                    }
+                ]
+            },
+            "interests": {
+                "title": "Interests",
+                "columns": 1,
+                "hidden": false,
+                "items": []
+            },
+            "awards": {
+                "title": "Awards",
+                "columns": 1,
+                "hidden": false,
+                "items": []
+            },
+            "certifications": {
+                "title": "Certifications",
+                "columns": 1,
+                "hidden": false,
+                "items": []
+            },
+            "publications": {
+                "title": "Publications",
+                "columns": 1,
+                "hidden": false,
+                "items": []
+            },
+            "volunteer": {
+                "title": "Volunteering",
+                "columns": 1,
+                "hidden": false,
+                "items": []
+            },
+            "references": {
+                "title": "References",
+                "columns": 1,
+                "hidden": false,
+                "items": []
+            }
+        },
+        "customSections": [],
+        "metadata": {
+            "template": "gengar",
+            "layout": {
+                "sidebarWidth": 35,
+                "pages": [
+                    {
+                        "fullWidth": false,
+                        "main": [
+                            "summary",
+                            "profiles",
+                            "experience",
+                            "education",
+                            "projects",
+                            "volunteer",
+                            "references",
+                            "skills",
+                            "interests",
+                            "certifications",
+                            "awards",
+                            "publications",
+                            "languages"
+                        ],
+                        "sidebar": []
+                    }
+                ]
+            },
+            "page": {
+                "gapX": 4,
+                "gapY": 6,
+                "marginX": 18,
+                "marginY": 18,
+                "format": "a4",
+                "locale": "en-US",
+                "hideIcons": false
+            },
+            "design": {
+                "level": {
+                    "icon": "star",
+                    "type": "circle"
+                },
+                "colors": {
+                    "primary": "rgba(140, 195, 222, 1)",
+                    "text": "rgba(0, 0, 0, 1)",
+                    "background": "rgba(255, 255, 255, 1)"
+                }
+            },
+            "typography": {
+                "body": {
+                    "fontFamily": "Lato",
+                    "fontWeights": [
+                        "400"
+                    ],
+                    "fontSize": 10.5,
+                    "lineHeight": 1.5
+                },
+                "heading": {
+                    "fontFamily": "Lato",
+                    "fontWeights": [
+                        "600"
+                    ],
+                    "fontSize": 13.5,
+                    "lineHeight": 1.5
+                }
+            },
+            "notes": "<p>Cover Letter - Sonar Engineering Director (Data & Agentic)</p><p></p><p>Dear Hiring Team,</p><p></p><p>I'm writing to express my strong interest in the Engineering Director - Data & Agentic position at Sonar. With 17+ years of engineering leadership experience and a deep passion for code quality, AI-driven development, and data-powered decision-making, I believe I'm well-positioned to contribute to Sonar's mission of ensuring AI-generated software is reliable, secure, and maintainable.</p><p></p><p>As VP of Engineering at YouTrip, I currently lead the complete engineering and people function for a fintech platform processing over $10 billion in annual transactions. I'm spearheading our organization's AI transformation \u2014 driving adoption of agentic AI technologies to enhance engineering productivity, code quality, and product innovation. My work spans infrastructure optimization ($25K/month ROI uplift), platform reliability (31%+ error reduction), and building data-driven operational dashboards that enable better engineering decisions.</p><p></p><p>Previously at Carousell, I built and led organizations of 50+ engineers across Singapore, India, and Indonesia, managing through Engineering Managers and Tech Leads. I drove cloud platform modernization (achieving ~50% cost savings), operationalized ML/experimentation frameworks, and championed developer experience through CI/CD improvements and automated testing \u2014 all directly relevant to Sonar's engineering culture.</p><p></p><p>What excites me most about Sonar is the intersection of code quality and AI \u2014 ensuring that as development becomes increasingly AI-assisted and agentic, the software produced meets the highest standards of reliability and security. This aligns perfectly with my current work driving AI adoption while maintaining platform integrity at scale.</p><p></p><p>I'm based in Singapore and would welcome the opportunity to discuss how my experience in scaling engineering organizations, defining technical direction, and driving AI-powered transformation can contribute to Sonar's continued growth.</p><p></p><p>Warm regards,</p><p>Ketan Mujumdar</p>"
+        }
+    },
+    "updatedAt": "2026-05-20T07:39:47.253Z",
+    "hasPassword": false
+}

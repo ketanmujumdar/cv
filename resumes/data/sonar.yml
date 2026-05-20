@@ -1,0 +1,157 @@
+# Sonar - Engineering Director, Data & Agentic
+# Overrides base.yml fields. Only include fields you want to change.
+
+basics:
+  headline: "Engineering Leader | AI-Assisted Development at Scale | Code Quality, Reliability & Developer Productivity"
+
+theme:
+  primary: "#1e40af"
+  primary_light: "#dbeafe"
+  sidebar_bg: "#f0f4ff"
+
+summary: >-
+  Engineering leader with 17+ years scaling high-performance engineering
+  organizations across APAC. Currently VP of Engineering at YouTrip, a
+  fintech platform processing $15B+ in annual transaction volume, where
+  I lead the full engineering and people function. Track record building
+  and leading orgs of 70+ engineers across Singapore, India, and Indonesia,
+  coaching engineering managers, and modernizing cloud-native infrastructure.
+  Deep operator experience in AI-assisted development workflows, agentic
+  tooling adoption, code quality, CI/CD, and developer experience. Hands-on
+  builder - actively shipping AI-native products outside primary role.
+
+skills:
+  - name: Engineering Leadership
+    keywords:
+      - Org Scaling
+      - Coaching EMs
+      - Hiring & Retention
+      - Career Ladder Design
+      - Cross-functional Alignment
+  - name: AI & Developer Productivity
+    keywords:
+      - AI-Assisted Development (Claude Code, Copilot, Cursor)
+      - Agentic AI Adoption
+      - Code Review Automation
+      - Provider-agnostic LLM Integration (BYOK)
+      - AI-Powered Workflows
+  - name: Code Quality & Engineering Excellence
+    keywords:
+      - Static Analysis
+      - Automated Testing
+      - CI/CD
+      - Code Review Standards
+      - Agile Methodologies
+      - Quality Gates
+  - name: Platform & Architecture
+    keywords:
+      - Distributed Systems
+      - Modular Architecture
+      - API Platforms
+      - High-Concurrency
+      - Technical Roadmaps
+  - name: Cloud & Reliability
+    keywords:
+      - AWS
+      - GCP
+      - Kubernetes
+      - SRE
+      - On-Call & Incident Management
+      - Cost Optimization
+  - name: Languages
+    keywords:
+      - Java
+      - JavaScript
+      - Go
+      - TypeScript
+
+experience:
+  - position: VP of Engineering
+    company: YouTrip
+    location: Singapore
+    period: "Jan 2026 - Present"
+    details:
+      - Leading the engineering function for a fintech platform processing $15B+ in annual transaction volume across Singapore, Thailand, Malaysia, and Australia - managing through engineering managers across 70+ engineers in Singapore, India, Hong Kong, and Indonesia.
+      - Driving AI-assisted development adoption across the org - deployed Claude Code for development workflows and Gemini for ad-hoc AI assistance; early-stage rollout targeting accelerated development velocity and expanded unit test coverage.
+      - Reduced critical 5xx transaction errors by 31%+ through targeted reliability initiatives, improving platform stability across millions of active users.
+      - Established the Engineering Career Ladder framework spanning IC L1-L5 and EM through Director, with EM positioned as lateral entry from L3 - coaching engineering managers on people leadership and talent development.
+
+  - company: Carousell
+    location: Singapore
+    period: "Nov 2017 - Dec 2025 (8 years)"
+    subroles:
+      - title: "Head of Engineering, Laku6 & Director of Engineering"
+        period: "Jan 2023 - Dec 2025"
+        note: "Laku6 is Carousell's Indonesia recommerce arm (acquired 2021)."
+        details:
+          - Led multi-layered org across Platform, Infrastructure, SRE, and Product - managing through EMs and Tech Leads across Singapore, India, and Indonesia.
+          - Drove cloud infrastructure optimization achieving ~50% cost savings through compute/storage/network restructuring and right-sizing.
+          - Integrated AI-assisted development workflows; partnered with Product/Data on AI/ML-powered monetization and personalization.
+          - Owned payments, subscriptions, and internal APIs enabling multi-market expansion.
+      - title: "Director of Engineering, Platform & Verticals"
+        period: "Jan 2021 - Dec 2022"
+        details:
+          - Led engineering across Merchants, Trust & Safety, and Marketplace Verticals; scaled infrastructure for high-traffic workloads with multi-region readiness.
+          - Operationalized experimentation frameworks and integrated ML models into production.
+          - Reduced time-to-ship by ~20% through CI/CD pipeline streamlining.
+      - title: Senior Engineering Manager
+        period: "Nov 2017 - Dec 2020"
+        details:
+          - Led Listing Quota - one of Carousell's most significant monetization initiatives. Managed 24 direct/indirect reports across local and remote teams.
+          - Championed CI/CD transformation, contributing to 15% faster deployment cycles.
+
+  - position: Senior Manager
+    company: MediaCorp
+    location: Singapore
+    period: "Mar 2016 - Oct 2017"
+    details:
+      - Led platform initiatives for meWATCH OTT streaming; owned SSO across 30 properties and CI/CD reliability for content delivery.
+
+  - position: Release Manager / Senior Developer
+    company: Zalora
+    location: Singapore
+    period: "Mar 2013 - Mar 2016"
+    details:
+      - Introduced agile and release management practices org-wide; designed CI infrastructure for deployments, smoke tests, and nightly test loops.
+
+  - position: Founder / Lead Engineer
+    company: Independent
+    location: India
+    period: "2008 - 2012"
+    details:
+      - "Founded web development agency (ad-tech, SSO, content platforms); built cloud-based fleet tracking and fintech products on Ruby on Rails, PHP, JavaScript."
+
+cover_letter: |
+  Dear Hiring Team,
+
+  I'm writing to express my strong interest in the Engineering Director - Data
+  & Agentic position at Sonar. With 17+ years of engineering leadership and a
+  deep passion for code quality, AI-driven development, and data-powered
+  decision-making, I believe I'm well-positioned to contribute to Sonar's
+  mission of ensuring AI-generated software is reliable, secure, and
+  maintainable.
+
+  As VP of Engineering at YouTrip, I lead the complete engineering and people
+  function for a fintech platform processing over $15 billion in annual
+  transactions. I'm spearheading our AI transformation - driving adoption of
+  agentic AI technologies to enhance engineering productivity, code quality,
+  and product innovation. My work spans infrastructure optimization ($25K/month
+  ROI uplift), platform reliability (31%+ error reduction), and data-driven
+  operational dashboards.
+
+  Previously at Carousell, I built and led organizations of 70+ engineers
+  across Singapore, India, and Indonesia, managing through Engineering Managers
+  and Tech Leads. I drove cloud platform modernization (achieving ~50% cost
+  savings), operationalized ML/experimentation frameworks, and championed
+  developer experience through CI/CD and automated testing.
+
+  What excites me most about Sonar is the intersection of code quality and AI -
+  ensuring that AI-assisted and agentic development produces reliable, secure
+  software. This aligns perfectly with my current work driving AI adoption
+  while maintaining platform integrity at scale.
+
+  I'm based in Singapore and welcome the opportunity to discuss how my
+  experience can contribute to Sonar's growth.
+
+  Warm regards,
+  Ketan Mujumdar

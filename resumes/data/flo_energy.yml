@@ -1,0 +1,165 @@
+# Flo Energy - Chief Technology Officer
+# Overrides base.yml fields. Only include fields you want to change.
+
+basics:
+  headline: "Technology Executive | Platform Scaling & Multi-Market Expansion | Revenue Platforms & Monetization at Scale"
+
+theme:
+  primary: "#0f6b3d"
+  primary_light: "#dcfce7"
+  sidebar_bg: "#f0fdf4"
+
+summary: >-
+  Technology executive with 17+ years of experience building and scaling
+  platform-led engineering organizations across APAC. Currently VP of
+  Engineering at YouTrip, leading a distributed organization of 70+ engineers
+  across Singapore, India, Hong Kong, and Indonesia on a proprietary
+  multi-market fintech platform supporting millions of users and high-volume
+  transaction flows.
+
+  Spent 8 years at Carousell progressing from Senior Engineering Manager to
+  Head of Engineering, scaling the org to 150+ engineers across Singapore,
+  India, and Indonesia. There I helped evolve core payments, subscriptions,
+  and API capabilities into reusable multi-market platforms supporting
+  Southeast Asia expansion, and led the integration of Laku6 (acquired
+  Indonesian recommerce platform) into the core platform, a direct parallel
+  to franchise and multi-entity platform consolidation.
+
+  My background spans product, recommerce, advertisement, and payments,
+  building high-reliability platforms, complex integrations, data systems,
+  and engineering operations at scale. I'm particularly passionate about
+  building strong engineering cultures, developing leadership layers,
+  improving accountability and execution, and helping fast-growing companies
+  transition from founder-driven teams into mature organizations capable of
+  operating at regional and global scale.
+
+skills:
+  - name: Technology Leadership
+    keywords:
+      - Engineering Org Scaling
+      - C-Suite Collaboration
+      - Culture & Accountability
+  - name: Platform Architecture
+    keywords:
+      - Platformization
+      - High-Reliability Systems
+      - Multi-market Integration
+      - License-ready Architecture
+      - Revenue Platforms
+  - name: Data & Operations
+    keywords:
+      - Data Reconciliation
+      - IT Security & Compliance
+      - SRE & Incident Management
+  - name: Cloud & Infrastructure
+    keywords:
+      - AWS
+      - GCP
+      - Kubernetes
+      - Cost Optimization
+
+experience:
+  - position: VP of Engineering
+    company: YouTrip
+    location: Singapore
+    period: "Jan 2026 - Present"
+    details:
+      - Leading the engineering function for YouTrip's proprietary multi-market fintech platform serving Singapore, Thailand, Malaysia, and Australia, managing 70+ engineers across four countries through engineering managers and tech leads.
+      - Reduced critical 5xx transaction errors by 31%+ through targeted reliability engineering, improving platform stability across millions of active users.
+      - Strengthening IT security, fraud mitigation, and operational governance across a regulated fintech environment.
+      - Driving AI-assisted engineering adoption across development, testing, and code review workflows to accelerate productivity and quality.
+
+  - company: Carousell
+    location: Singapore
+    period: "Nov 2017 - Dec 2025 (8 years)"
+    subroles:
+      - title: "Head of Engineering, Laku6 & Director of Engineering"
+        period: "Jan 2023 - Dec 2025"
+        note: "Laku6 is Carousell's Indonesia recommerce arm (acquired 2021)."
+        details:
+          - Led 50+ engineers and product managers across 3 platform teams in Singapore, India, and Indonesia, managing through EMs and Tech Leads, with quarterly OKRs driving 90%+ delivery success.
+          - Drove platformization of internal payments, subscriptions, and API layers, evolving market-specific implementations into a reusable platform backbone, reducing time-to-integration for new market launches.
+          - Led the integration of Laku6 (acquired Indonesian recommerce platform) into Carousell's core platform, aligning architectures, payments, and data systems while preserving market-specific operating model. Direct parallel to franchise/multi-entity platform consolidation.
+          - Owned integration with external payment rails, financial invoicing systems, and market-specific APIs across Indonesia and Singapore, managing complex data reconciliation and high-volume transaction flows at scale.
+          - Instituted ML-powered monetization experiments through improved recommendation engines and data pipelines, directly impacting revenue across multiple markets.
+          - Led deep cloud infrastructure optimization achieving ~50% cost reduction through compute, storage, and network restructuring, improving platform economics for international growth.
+          - Owned hiring and retention of senior engineering talent across Singapore, India, and Indonesia; championed AI-assisted engineering adoption across teams.
+      - title: "Director of Engineering, Platform & Verticals"
+        period: "Jan 2021 - Dec 2022"
+        details:
+          - Scaled engineering organization to 150+ people; directly managed 70+ engineers across Merchants, Trust & Safety, and Properties, three of Carousell's most platform-critical verticals.
+          - Owned engineering for the paying merchant portfolio and monetization platform across Southeast Asia, scaling revenue infrastructure that originated as a $0 function in 2017.
+          - Mentored and grew new engineering managers and senior ICs, building the leadership layer that allowed the org to scale beyond founder-led structures.
+          - Partnered with Product and Data Science to deliver monetization tools and ML-driven features improving ARPU across verticals.
+          - Scaled infrastructure for high-traffic, multi-region workloads; operationalized experimentation frameworks and data pipelines for ML model integration into production.
+          - Reduced time-to-ship by ~20% through CI/CD pipeline improvements, enhancing engineering velocity across distributed Singapore and India teams.
+      - title: Senior Engineering Manager
+        period: "Nov 2017 - Dec 2020"
+        details:
+          - Joined Carousell to build the revenue function from zero, establishing monetization as a core engineering vertical and growing daily revenue 30x over the role tenure across listings, ads, and subscriptions.
+          - Led the transition from external ad inventory (Google/FB) to Carousell's first owned internal ad products and paid placements, building the monetization stack from the ground up.
+          - Led Listing Quota, one of Carousell's most significant monetization initiatives. Managed 24 direct/indirect reports across local and remote teams; partnered with Product, Data, and Finance on pricing models and experimentation.
+          - Established weekly app release cadence and championed CI/CD transformation contributing to 15% faster deployment cycles.
+
+  - position: Senior Manager
+    company: MediaCorp
+    location: Singapore
+    period: "Mar 2016 - Oct 2017"
+    details:
+      - Led platform initiatives for meWATCH OTT streaming; owned SSO across 30 properties and CI/CD reliability for content delivery.
+
+  - position: Release Manager / Senior Developer
+    company: Zalora
+    location: Singapore
+    period: "Mar 2013 - Mar 2016"
+    details:
+      - Introduced agile and release management practices org-wide; designed CI infrastructure for deployments, smoke tests, and nightly test loops.
+
+  - position: Founder / Lead Engineer
+    company: Independent
+    location: India
+    period: "2008 - 2012"
+    details:
+      - "Founded web development agency (ad-tech, SSO, content platforms); built cloud-based fleet tracking and fintech products on Ruby on Rails, PHP, JavaScript."
+
+cover_letter: |
+  Dear Matthijs and the Flo Energy team,
+
+  I'm applying for the Chief Technology Officer role at Flo Energy. Flo's
+  mission, accelerating the transition to renewable energy through radical
+  transparency and proprietary technology, resonates strongly with me, and the
+  mandate you've outlined maps directly to challenges I've navigated and work
+  I've delivered.
+
+  As VP of Engineering at YouTrip, I lead the full engineering function for a
+  proprietary fintech platform processing over $15 billion in annual transactions
+  across Singapore, Thailand, Malaysia, and Australia. I manage 70+ engineers
+  through engineering managers and tech leads, and I'm overseeing the platform's
+  evolution to support deeper multi-market regulatory integration and international
+  product expansion. The parallels to Flo's trajectory are direct: proprietary
+  platform as the core competitive differentiator, multi-market expansion, and the
+  need to build organizational capacity and accountability at pace.
+
+  The platformization mandate, evolving Flo's internal tools into a license-ready
+  backbone for global franchise and multi-market grid integrations, is exactly
+  the type of challenge I tackled at Carousell. There, I led the transformation
+  of market-specific payments, subscriptions, and API layers into a shared
+  platform foundation that enabled multi-country product rollouts across Indonesia,
+  Singapore, and India, significantly reducing time-to-integration for new markets.
+  I also owned complex data reconciliation across multiple financial systems and
+  payment rails, directly relevant to the grid-edge data reconciliation challenges
+  you've described.
+
+  On the organizational side: I've led the transition of engineering cultures from
+  flat, founder-driven structures into accountable, high-performance organizations.
+  I've built engineering career ladders from scratch, coached engineering managers
+  through the shift from individual contributor to people leader, and established
+  operational rhythms (incident management, post-mortems, on-call, data-driven
+  KPI dashboards) that create confidence and accountability without
+  bureaucracy. This is precisely the transition Flo needs its CTO to lead.
+
+  I'm based in Singapore and comfortable with the international travel the role
+  requires. I'd welcome the opportunity to discuss how my experience can help
+  Flo accelerate its next phase.
+
+  Ketan Mujumdar

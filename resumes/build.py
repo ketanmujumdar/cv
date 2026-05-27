@@ -66,19 +66,55 @@ def render_html(data: dict, template_name: str = "modern") -> str:
     return template.render(**data)
 
 
-def generate_pdf(html_path: Path, pdf_path: Path):
-    """Generate PDF from HTML using Playwright."""
+def generate_pdf(html_path: Path, pdf_path: Path, name: str = "", sidebar_bg: str = "#f8fafc"):
+    """Generate PDF from HTML using Playwright. Adds a name + page-number header on every page,
+    with a background gradient matching the sidebar so the header visually continues the layout."""
+    border = "#e2e8f0"
+    gradient = (
+        f"linear-gradient(to right,"
+        f"{sidebar_bg} 0,"
+        f"{sidebar_bg} calc(68mm - 1px),"
+        f"{border} calc(68mm - 1px),"
+        f"{border} 68mm,"
+        f"white 68mm)"
+    )
+    header_html = (
+        '<style>html,body{margin:0!important;padding:0!important;}</style>'
+        f'<div style="font-family:-apple-system,sans-serif;font-size:8pt;color:#64748b;'
+        f'width:100%;height:14mm;background:{gradient};'
+        f'display:flex;justify-content:space-between;align-items:center;'
+        f'padding:0 12mm;box-sizing:border-box;-webkit-print-color-adjust:exact;print-color-adjust:exact;">'
+        f'<span></span>'
+        f'<span>Page <span class="pageNumber"></span> of <span class="totalPages"></span></span>'
+        f'</div>'
+    )
+    footer_html = '<div></div>'
+
     script = f"""
 const {{ chromium }} = require('playwright');
 (async () => {{
     const browser = await chromium.launch();
     const page = await browser.newPage();
     await page.goto('file://{html_path.resolve()}', {{ waitUntil: 'networkidle' }});
+    // Pad .page bottom so sidebar bg extends to the end of the last printed page.
+    await page.evaluate(() => {{
+        const MM_PX = 96 / 25.4;
+        const pagePx = (297 - 14) * MM_PX;
+        const page = document.querySelector('.page');
+        const main = document.querySelector('.main');
+        if (!page || !main) return;
+        const h = page.getBoundingClientRect().height;
+        const pad = Math.ceil(h / pagePx) * pagePx - h - 2;
+        if (pad > 0) main.style.paddingBottom = pad + 'px';
+    }});
     await page.pdf({{
         path: '{pdf_path.resolve()}',
         format: 'A4',
         printBackground: true,
-        margin: {{ top: '0mm', right: '0mm', bottom: '0mm', left: '0mm' }}
+        displayHeaderFooter: true,
+        headerTemplate: {header_html!r},
+        footerTemplate: {footer_html!r},
+        margin: {{ top: '14mm', right: '0mm', bottom: '0mm', left: '0mm' }}
     }});
     await browser.close();
 }})();
@@ -102,11 +138,28 @@ const {{ chromium }} = require('playwright');
             browser = p.chromium.launch()
             page = browser.new_page()
             page.goto(f"file://{html_path.resolve()}", wait_until="networkidle")
+            dbg = page.evaluate(
+                """() => {
+                    const MM_PX = 96 / 25.4;
+                    const pagePx = (297 - 14) * MM_PX;
+                    const page = document.querySelector('.page');
+                    const main = document.querySelector('.main');
+                    if (!page || !main) return {err: 'no element'};
+                    const h = page.getBoundingClientRect().height;
+                    const pad = Math.ceil(h / pagePx) * pagePx - h - 2;
+                    if (pad > 0) main.style.paddingBottom = pad + 'px';
+                    return {pagePx, h, pad, sidebarH: document.querySelector('.sidebar').getBoundingClientRect().height};
+                }"""
+            )
+            print(f"  DEBUG: {dbg}")
             page.pdf(
                 path=str(pdf_path),
                 format="A4",
                 print_background=True,
-                margin={"top": "0mm", "right": "0mm", "bottom": "0mm", "left": "0mm"},
+                display_header_footer=True,
+                header_template=header_html,
+                footer_template=footer_html,
+                margin={"top": "14mm", "right": "0mm", "bottom": "0mm", "left": "0mm"},
             )
             browser.close()
         print(f"  PDF: {pdf_path}")
@@ -142,7 +195,9 @@ def build(company: str, template: str = "modern", pdf: bool = False):
 
     if pdf:
         pdf_path = OUTPUT_DIR / f"{company}.pdf"
-        generate_pdf(html_path, pdf_path)
+        name = (data.get("basics") or {}).get("name", "")
+        sidebar_bg = (data.get("theme") or {}).get("sidebar_bg", "#f8fafc")
+        generate_pdf(html_path, pdf_path, name, sidebar_bg)
 
 
 def main():

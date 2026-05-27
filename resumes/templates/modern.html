@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>{{ basics.name }} — Resume</title>
+<title>{{ basics.name }} - Resume</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
@@ -22,7 +22,7 @@
 
   @page {
     size: A4;
-    margin: 0;
+    margin: 14mm 0 0 0;
   }
 
   html, body {
@@ -44,8 +44,8 @@
 
   /* ---- SIDEBAR ---- */
   .sidebar {
-    background: var(--bg-sidebar);
     padding: 28px 20px;
+    background: var(--bg-sidebar);
     border-right: 1px solid var(--border);
   }
 
@@ -192,6 +192,32 @@
   .exp-item {
     margin-bottom: 14px;
     page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Allow multi-subrole company blocks to break across pages */
+  .exp-item-multi {
+    page-break-inside: auto;
+    break-inside: auto;
+  }
+
+  .exp-subrole {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  .exp-subrole-company {
+    font-size: 7pt;
+    font-weight: 600;
+    color: var(--primary);
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    margin-bottom: 1px;
+  }
+
+  .exp-details {
+    orphans: 3;
+    widows: 3;
   }
 
   .exp-header {
@@ -245,6 +271,15 @@
     }
     .exp-item {
       page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    .exp-item-multi {
+      page-break-inside: auto;
+      break-inside: auto;
+    }
+    .exp-subrole {
+      page-break-inside: avoid;
+      break-inside: avoid;
     }
   }
 </style>
@@ -254,7 +289,6 @@
 <div class="page">
   <!-- SIDEBAR -->
   <div class="sidebar">
-    <div class="name">{{ basics.name }}</div>
     <div class="headline">{{ basics.headline }}</div>
 
     <!-- Contact -->
@@ -352,14 +386,15 @@
     <div class="section">
       <div class="section-title">Experience</div>
       {% for exp in experience %}
-      <div class="exp-item">
+      <div class="exp-item{% if exp.subroles %} exp-item-multi{% endif %}">
         {% if exp.subroles %}
         <div class="exp-header">
           <span class="exp-position">{{ exp.company }}{% if exp.location %} · {{ exp.location }}{% endif %}</span>
           <span class="exp-period">{{ exp.period }}</span>
         </div>
         {% for sub in exp.subroles %}
-        <div style="margin-top:8px">
+        <div class="exp-subrole" style="margin-top:8px">
+          <div class="exp-subrole-company">{{ exp.company }}</div>
           <div class="exp-header">
             <span class="exp-position" style="font-size:9pt">{{ sub.title }}</span>
             <span class="exp-period">{{ sub.period }}</span>

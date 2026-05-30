@@ -1,0 +1,187 @@
+# DubiCars - Chief Technology Officer
+# Overrides base.yml fields. Source of truth is flo_energy.yml structure.
+
+basics:
+  headline: "Technology Executive | Marketplace & Classifieds Platforms | Dealer Ecosystems & Multi-Market Growth"
+
+theme:
+  primary: "#E84855"
+  primary_light: "#fde2e4"
+  sidebar_bg: "#fff5f6"
+
+summary: >-
+  Technology executive with 17+ years of experience building and scaling
+  platform-led engineering organizations across APAC. Currently VP of
+  Engineering at YouTrip, leading a distributed organization of 70+ engineers
+  across Singapore, India, Hong Kong, and Indonesia on a proprietary
+  multi-market fintech platform supporting millions of users and high-volume
+  transaction flows.
+
+  Spent 8 years at Carousell, Southeast Asia's largest classifieds
+  marketplace, progressing from Senior Engineering Manager to Head of
+  Engineering, scaling the org to 150+ engineers across Singapore, India,
+  and Indonesia. There I owned engineering for the dealer and paying-merchant
+  monetization platform, the Properties and Cars verticals, and the listings,
+  ads, and subscriptions stack, evolving market-specific implementations into
+  reusable multi-market platforms. I also led the integration of Laku6
+  (acquired Indonesian recommerce platform) into the core platform, a direct
+  build/buy/partner consolidation parallel.
+
+  My background spans classifieds marketplaces, dealer-facing SaaS, advertising,
+  and payments, building high-reliability platforms, complex integrations,
+  recommendation and data systems, and engineering operations at scale. I'm
+  particularly passionate about building strong engineering cultures, developing
+  leadership layers, improving accountability and execution, and helping
+  fast-growing marketplaces transition from founder-driven teams into mature
+  organizations capable of operating at regional and global scale.
+
+skills:
+  - name: Marketplace & Classifieds
+    keywords:
+      - Dealer & Seller SaaS
+      - Listings & Lead Management
+      - Monetization Platforms
+      - Ads & Subscriptions
+      - Trust & Safety
+  - name: Technology Leadership
+    keywords:
+      - Engineering Org Scaling
+      - C-Suite Collaboration
+      - Hands-on Architecture
+      - Build / Buy / Partner
+      - Culture & Accountability
+  - name: Platform Architecture
+    keywords:
+      - Multi-market Platforms
+      - High-Reliability Systems
+      - API & Integration Platforms
+      - Recommendation Engines
+      - B2B SaaS for Sellers
+  - name: AI / ML & Data
+    keywords:
+      - AI-assisted Engineering
+      - ML-powered Monetization
+      - Data Transparency & Insights
+      - Analytics Platforms
+      - Experimentation
+  - name: Tech Stack
+    keywords:
+      - Python
+      - Ruby on Rails
+      - PHP
+      - TypeScript / React / Vue
+      - AWS / GCP / Kubernetes
+
+experience:
+  - position: VP of Engineering
+    company: YouTrip
+    location: Singapore
+    period: "Jan 2026 - Present"
+    details:
+      - Leading the engineering function for YouTrip's proprietary multi-market fintech platform serving Singapore, Thailand, Malaysia, and Australia, managing 70+ engineers across four countries through engineering managers and tech leads.
+      - Reduced critical 5xx transaction errors by 31%+ through targeted reliability engineering, improving platform stability across millions of active users.
+      - Partnering directly with the CEO and exec team on platform strategy, build/buy/partner decisions, and multi-market product expansion.
+      - Driving AI-assisted engineering adoption across development, testing, and code review workflows, and embedding hands-on technical review into architecture and platform decisions.
+
+  - company: Carousell
+    location: Singapore
+    period: "Nov 2017 - Dec 2025 (8 years)"
+    subroles:
+      - title: "Head of Engineering, Laku6 & Director of Engineering"
+        period: "Jan 2023 - Dec 2025"
+        note: "Laku6 is Carousell's Indonesia recommerce arm (acquired 2021)."
+        details:
+          - Led 50+ engineers and product managers across 3 platform teams in Singapore, India, and Indonesia, managing through EMs and Tech Leads, with quarterly OKRs driving 90%+ delivery success.
+          - Drove platformization of listings, payments, subscriptions, and API layers, evolving market-specific implementations into a reusable classifieds platform backbone, reducing time-to-integration for new market launches.
+          - Led the integration of Laku6 (acquired Indonesian recommerce platform) into Carousell's core platform, aligning architectures, payments, and data systems while preserving market-specific operating model. Direct build/buy/partner consolidation parallel.
+          - Owned dealer and merchant-facing integrations with external payment rails, financial invoicing systems, and market-specific APIs across Indonesia and Singapore, managing complex data reconciliation and high-volume transaction flows at scale.
+          - Instituted ML-powered monetization through improved recommendation engines, search ranking, and data pipelines, directly impacting seller revenue and buyer engagement across multiple markets.
+          - Led deep cloud infrastructure optimization achieving ~50% cost reduction through compute, storage, and network restructuring, improving platform economics for international growth.
+          - Owned hiring and retention of senior engineering talent across Singapore, India, and Indonesia; championed AI-assisted engineering adoption across teams.
+      - title: "Director of Engineering, Platform & Verticals"
+        period: "Jan 2021 - Dec 2022"
+        details:
+          - Scaled engineering organization to 150+ people; directly managed 70+ engineers across Merchants, Trust & Safety, and Properties (Carousell's classifieds vertical for cars and property), three of Carousell's most platform-critical verticals.
+          - Owned engineering for the paying-dealer and merchant portfolio and monetization platform across Southeast Asia, scaling revenue infrastructure that originated as a $0 function in 2017 - a direct parallel to DubiCars' dealer-centric SaaS and monetization play.
+          - Mentored and grew new engineering managers and senior ICs, building the leadership layer that allowed the org to scale beyond founder-led structures.
+          - Partnered with Product and Data Science to deliver dealer-facing monetization tools, market insights, and ML-driven features improving ARPU across verticals.
+          - Scaled infrastructure for high-traffic, multi-region marketplace workloads; operationalized experimentation frameworks and data pipelines for ML model integration into production.
+          - Reduced time-to-ship by ~20% through CI/CD pipeline improvements, enhancing engineering velocity across distributed Singapore and India teams.
+      - title: Senior Engineering Manager
+        period: "Nov 2017 - Dec 2020"
+        details:
+          - Joined Carousell to build the revenue function from zero, establishing monetization as a core engineering vertical and growing daily revenue 30x over the role tenure across listings, ads, and subscriptions.
+          - Led the transition from external ad inventory (Google/FB) to Carousell's first owned internal ad products and paid placements, building the marketplace monetization stack from the ground up.
+          - Led Listing Quota, one of Carousell's most significant seller-monetization initiatives. Managed 24 direct/indirect reports across local and remote teams; partnered with Product, Data, and Finance on pricing models and experimentation.
+          - Established weekly app release cadence and championed CI/CD transformation contributing to 15% faster deployment cycles.
+
+  - position: Senior Manager
+    company: MediaCorp
+    location: Singapore
+    period: "Mar 2016 - Oct 2017"
+    details:
+      - Led platform initiatives for meWATCH OTT streaming; owned SSO across 30 properties and CI/CD reliability for content delivery.
+
+  - position: Release Manager / Senior Developer
+    company: Zalora
+    location: Singapore
+    period: "Mar 2013 - Mar 2016"
+    details:
+      - Introduced agile and release management practices org-wide; designed CI infrastructure for deployments, smoke tests, and nightly test loops.
+
+  - position: Founder / Lead Engineer
+    company: Independent
+    location: India
+    period: "2008 - 2012"
+    details:
+      - "Founded web development agency (ad-tech, SSO, content platforms, classifieds); built cloud-based fleet tracking and fintech products on Ruby on Rails, PHP, JavaScript."
+
+cover_letter: |
+  Dear Craig and the DubiCars team,
+
+  I'm applying for the Chief Technology Officer role at DubiCars. The mandate
+  you've outlined, driving the next phase of platform, data, and dealer-ecosystem
+  transformation for the UAE's fastest-growing automotive marketplace, maps
+  directly to the work I've delivered across my career.
+
+  I spent 8 years at Carousell, Southeast Asia's largest classifieds marketplace,
+  scaling engineering from a small team to 150+ across Singapore, India, and
+  Indonesia. I owned the dealer and paying-merchant monetization platform and
+  led the Properties and Cars verticals, building dealer-facing SaaS tooling,
+  listings infrastructure, lead management, ads, and subscriptions. The product
+  and structural parallel to DubiCars is direct: classifieds marketplace,
+  dealer-centric SaaS, multi-market expansion, and the shift from
+  generalist-platform competition to dealer-tooling, integration, and data
+  transparency as the differentiation moat.
+
+  I also led the integration of Laku6, Carousell's acquired Indonesian
+  recommerce platform, into the core stack, aligning architectures, payments,
+  and data systems while preserving the local operating model. That's the
+  same build / buy / partner playbook you've described for DubiCars' next
+  growth phase, and I'm comfortable evaluating and executing across the full
+  spectrum.
+
+  As VP of Engineering at YouTrip today, I lead the full engineering function
+  for a proprietary fintech platform processing over $15 billion in annual
+  transactions across four markets. I'm hands-on with architecture, platform
+  decisions, AI-assisted engineering rollout, and exec partnering with the CEO,
+  which is exactly the operating mode the brief calls for.
+
+  On the organizational side, I've led the transition of engineering cultures
+  from flat, founder-driven structures into accountable, high-performance
+  organizations. I've built engineering career ladders from scratch, coached
+  engineering managers through the shift from IC to people leader, and
+  established operational rhythms (incident management, post-mortems, on-call,
+  data-driven KPI dashboards) that create confidence and accountability
+  without bureaucracy. This is the transition DubiCars needs as it modernizes
+  its tech foundation and scales toward 40% YoY growth.
+
+  My core stack experience aligns closely with DubiCars': Python, Ruby (on
+  Rails), PHP, AWS, TypeScript, React, Vue, and Kubernetes. I'm based in
+  Singapore, open to relocation to Dubai, and comfortable with the
+  international travel the role requires.
+
+  I'd welcome the opportunity to discuss how my experience can help DubiCars
+  accelerate its next phase.
+
+  Ketan Mujumdar

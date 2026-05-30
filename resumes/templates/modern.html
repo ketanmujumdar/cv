@@ -201,9 +201,27 @@
     break-inside: auto;
   }
 
+  /* Keep company header glued to first subrole (prevents orphaned header) */
+  .exp-item-multi > .exp-header {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  /* Subroles can split across pages, but their header stays with first bullet */
   .exp-subrole {
-    page-break-inside: avoid;
-    break-inside: avoid;
+    page-break-inside: auto;
+    break-inside: auto;
+  }
+
+  .exp-subrole > .exp-subrole-company,
+  .exp-subrole > .exp-header {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  .exp-item-multi > .exp-subrole:first-of-type {
+    page-break-before: avoid;
+    break-before: avoid;
   }
 
   .exp-subrole-company {
@@ -216,8 +234,8 @@
   }
 
   .exp-details {
-    orphans: 3;
-    widows: 3;
+    orphans: 2;
+    widows: 2;
   }
 
   .exp-header {
@@ -277,9 +295,22 @@
       page-break-inside: auto;
       break-inside: auto;
     }
+    .exp-item-multi > .exp-header {
+      page-break-after: avoid;
+      break-after: avoid;
+    }
     .exp-subrole {
-      page-break-inside: avoid;
-      break-inside: avoid;
+      page-break-inside: auto;
+      break-inside: auto;
+    }
+    .exp-subrole > .exp-subrole-company,
+    .exp-subrole > .exp-header {
+      page-break-after: avoid;
+      break-after: avoid;
+    }
+    .exp-item-multi > .exp-subrole:first-of-type {
+      page-break-before: avoid;
+      break-before: avoid;
     }
   }
 </style>

@@ -41,7 +41,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      Engineering executive with 17+ years driving platform scale, data-powered operations, and AI-driven transformation across tech companies in APAC. Currently VP of Engineering at YouTrip, leading the full engineering and people function for a platform processing $10B+ in annual transactions. Built and led organizations of 70+ engineers, coached engineering managers, and modernized cloud-native infrastructure (AWS, GCP) across DevOps, SRE, CI/CD, and ML Ops. Passionate about agentic AI, code quality, data-driven decision-making, and developer experience. Track record of defining technical direction, scaling distributed teams, and driving cross-functional alignment from strategy to execution.
+      Engineering leader with 17+ years building and scaling distributed platforms across APAC, with deep focus on real-time transaction systems, monetization, and engagement platforms. Currently VP of Engineering at YouTrip, leading a fintech platform processing $15B+ in annual transactions across Singapore, Thailand, Malaysia, and Australia with 70+ engineers across four countries. Previously spent 8 years at Carousell, scaling engineering to 150+ across Singapore, India, and Indonesia. Built Carousell's monetization platform from a $0 function into a multi-market revenue engine spanning ads, subscriptions, recommendations, and seller-facing products, growing daily revenue 30x. Drove platformization of payments, subscriptions, and APIs into a reusable event-driven distributed backbone, and led the integration of Laku6 (acquired Indonesian recommerce platform) into the core stack. In the final year, drove org-wide GenAI adoption, sustaining and lifting development velocity through a deliberate team scale-down. Passionate about technical excellence, building high-performing globally-distributed teams, and modernizing engineering practices through GenAI-assisted development, observability, and secure SDLC.
 education:
     - degree: Bachelor of Science Computer
       university: Pune University
@@ -54,46 +54,47 @@ experiences:
       time: 2026-01 - Present
       company: YouTrip, Singapore
       details: |
-        - Leading the complete engineering and people function for a fintech platform processing $10B+ in annual transactions, delivering measurable impact within the first months of tenure.
-        - Driving an organization-wide AI revolution - established an AI-first engineering culture, deployed agentic AI workflows across development, testing, and code review, and embedded AI-powered tooling into daily engineering operations.
-        - Led strategic cloud infrastructure restructuring, optimizing compute and network costs while improving scalability and platform resilience for high-volume transaction workloads.
-        - Reduced critical 5xx transaction errors by 31%+, significantly improving platform reliability and customer trust across millions of active users.
-        - Introduced engineering best practices across the org - standardized incident management, on-call processes, post-mortems, and operational review cadences.
+        - Own platform strategy, architecture, and engineering execution across four markets (Singapore, Thailand, Malaysia, Australia), partnering directly with the CEO and exec team.
+        - Leading 70+ engineers across Singapore, India, Hong Kong, and Indonesia on a proprietary multi-market fintech platform processing $15B+ in annual transactions.
+        - Reduced critical 5xx transaction errors by 31%+ through targeted reliability engineering on a high-throughput transaction processing platform.
+        - Driving GenAI adoption across development, testing, and code review workflows to lift engineering productivity and code quality.
+        - Strengthening secure SDLC, observability, and operational governance across a regulated fintech environment.
         - Established the Engineering Career Ladder framework, creating clear growth pathways and coaching engineering managers on people leadership and talent development.
-        - Built data-driven operational dashboards enabling real-time visibility into system health, team velocity, and business KPIs - driving a culture of continuous improvement.
-        - Implemented automated security and fraud mitigation systems, significantly reducing operational costs and protecting platform integrity at scale.
     - role: HOE (Laku6) & Director of Engineering (Carousell, Monetization)
       time: 2023-01 - 2025-12
       company: Carousell, Singapore
       details: |
-        - I am a passionate AI advocate, actively championing cutting-edge technologies to enhance productivity and innovation among Carousell's engineering teams.
-        - Led 50+ engineers and product managers across 3 platform teams; implemented quarterly OKRs driving 90%+ delivery success.
-        - At Carousell, I managed multiple squads focused on different verticals and the Merchants team.
-        - I am responsible for hiring top engineering talent in Singapore, India, and Indonesia, ensuring that Carousell and Laku6 remain at the forefront of technological innovation.
-        - Instituted ML-powered monetization experiments, directly impacting revenue through improved recommendation engines.
-        - I collaborated across squads and teams to ensure the timely delivery of key features and launched several organization-wide initiatives, including conferences, tech blogs, webinars, and podcasts to foster industry engagement.
-        - My efforts in publishing tech content have elevated our engineering reputation while engaging and educating the broader tech community.
-    - role: Director of Engineering
+        - Led 50+ engineers and product managers across 3 platform teams in Singapore, India, and Indonesia, managing through EMs and Tech Leads, with quarterly OKRs driving 90%+ delivery success.
+        - Drove platformization of payments, subscriptions, recommendations, and API layers into a reusable event-driven, API-first distributed backbone, reducing time-to-integration for new market launches.
+        - Led the integration of Laku6 (acquired Indonesian recommerce platform) into Carousell's core platform, aligning architectures, payment rails, and data systems across markets while preserving local operating model.
+        - Owned integrations with external payment rails, financial invoicing systems, and market-specific APIs across Indonesia and Singapore, managing complex data reconciliation and high-volume transaction flows at scale.
+        - Instituted ML-powered monetization, recommendation, and ranking systems, directly impacting revenue and user engagement across multiple markets.
+        - Drove deep GenAI adoption across the engineering org (Copilot, Cursor, Claude Code, internal LLM-assisted code review and test generation tooling), maintaining and improving development velocity through a deliberate team scale-down by offsetting reduced headcount with AI-leveraged productivity gains.
+        - Shipped AI-powered internal products including LLM-assisted listing categorization, content moderation, fraud signal extraction, and seller assistant tooling, replacing manual operational workflows and reducing trust & safety review load substantially.
+        - Established engineering norms for GenAI use (prompt patterns, code review gating, security guardrails, eval frameworks) so AI-assisted output met production quality bars.
+        - Led deep cloud infrastructure optimization achieving ~50% cost reduction through compute, storage, and network restructuring, improving platform economics for international growth.
+        - Owned hiring, retention, and development of senior engineering talent across Singapore, India, and Indonesia, sustaining a strong leadership layer of EMs and senior ICs accountable for platform delivery.
+        - Elevated Carousell's engineering brand through tech blogs, podcasts, webinars, and conference talks.
+    - role: Director of Engineering - Platform & Verticals
       time: 2021-01 - 2023-01
       company: Carousell, Singapore
       details: |
-        - Scaled engineering org to 85+ people; directly managed 50+ engineers across 3 platform-critical verticals (Merchants, Trust & Safety, Properties).
-        - Managed distributed teams across Singapore and India; mentored new EMs and senior ICs to scale engineering leadership.
-        - Oversaw a team of 50 engineers directly and indirectly, contributing to the growth and development of the 85-strong engineering organization.
-        - Spearheaded the recruitment and retention of top engineering talent in Singapore and India, ensuring that the company maintains its competitive edge.
-        - Partnered with product and data science to deliver monetization tools and ML-driven features improving ARPU across verticals.
-        - Raised Carousell’s brand through external tech talks, internal podcasts, and 10+ published engineering blogs.
-        - Elevated Carousell's engineering profile in Singapore by publishing informative and engaging tech blogs, hosting webinars, and creating compelling podcasts that showcase the company's technological expertise and innovation.
+        - Scaled engineering organization to 150+ people; directly managed 70+ engineers across Merchants, Trust & Safety, and Properties verticals.
+        - Owned engineering for the paying-merchant portfolio and monetization platform across Southeast Asia, scaling revenue infrastructure that originated as a $0 function in 2017 into a multi-market engagement and monetization engine.
+        - Built and mentored the leadership layer (EMs and senior ICs) that allowed the org to scale beyond founder-led structures, with structured career ladders and growth plans.
+        - Partnered with Product and Data Science to deliver monetization, recommendation, and engagement features improving ARPU and user retention across verticals.
+        - Scaled infrastructure for high-traffic, multi-region workloads; operationalized experimentation frameworks and event-driven pipelines for ML model integration into production.
+        - Reduced time-to-ship by ~20% through CI/CD pipeline improvements, observability investments, and engineering excellence practices across distributed Singapore and India teams.
+        - Raised Carousell's engineering brand through external tech talks, internal podcasts, and 10+ published engineering blogs.
     - role: Sr. Engineering Manager
       time: 2017-11 - 2020-12
       company: Carousell, Singapore
       details: |
-        - Successfully led the delivery of the Listing Quota project, one of Carousell's most significant initiatives, ensuring timely and high-quality completion.
-        - Managed a team of 24 direct and indirect reports, both local and remote, providing guidance and support to achieve team and company objectives.
-        - Conducted regular one-on-one meetings with teams responsible for delivering features, providing constructive feedback, and coaching to drive continuous improvement and ensure high-quality output.
+        - Joined Carousell to build the monetization function from zero, establishing it as a core engineering vertical and growing daily revenue 30x across listings, ads, subscriptions, and paid placements.
+        - Led the transition from external ad inventory (Google/FB) to Carousell's first owned internal ad products and paid placements, building the marketplace monetization stack from the ground up.
+        - Led Listing Quota, one of Carousell's most significant monetization initiatives. Managed 24 direct/indirect reports across local and remote teams; partnered with Product, Data, and Finance on pricing models and experimentation.
         - Championed CI/CD transformation and platform reliability, contributing to 15% faster deployment cycles and reduced production incidents.
-        - Collaborated with product managers to develop and deliver value-driven products that meet customer needs and expectations.
-        - Established a weekly app release cycle to accelerate the rollout of new features and improve time-to-market, resulting in increased customer satisfaction and engagement.
+        - Established a weekly app release cadence to accelerate feature rollout and improve time-to-market.
     - role: Sr. Manager
       time: 2016-03 - 2017-10
       company: MediaCorp, Singapore

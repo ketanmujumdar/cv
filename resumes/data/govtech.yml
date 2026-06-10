@@ -1,0 +1,10 @@
+# GovTech - Director of Engineering
+# Stub for tracker. Add overrides when ready to build the resume.
+
+basics:
+  headline: ""
+
+theme:
+  primary: "#d52b1e"
+  primary_light: "#fde2e2"
+  sidebar_bg: "#fff5f5"

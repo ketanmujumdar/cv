@@ -101,6 +101,31 @@ Serves `resumes/output/` at `http://localhost:8080`. Watches `resumes/data/` and
 
 **To add a new company:** copy `resumes/data/sonar.yml` to `resumes/data/newcompany.yml`, edit the overrides, run `python3 resumes/serve.py newcompany`.
 
+### Application tracker (Google Sheets)
+
+Config + service-account path live in `resumes/.env` (gitignored). Sheet ID is private — never paste it into commits or chat.
+
+```bash
+# One-time: format the sheet (header band, Status dropdown + colors, dashboard tab)
+python3 resumes/setup_sheet.py
+
+# Sync resumes/data/*.yml → Applications tab (idempotent, safe to re-run)
+python3 resumes/sync_tracker.py
+
+# CLI to manage status/notes from the terminal (sheet as DB)
+python3 resumes/track.py list
+python3 resumes/track.py show visa
+python3 resumes/track.py status visa Interview
+python3 resumes/track.py applied bakuun                # marks Submitted + today's date
+python3 resumes/track.py note flo_energy "Recruiter call Thu 3pm"
+python3 resumes/track.py set sonar Contact "Jane Doe <jane@sonar.io>"
+```
+
+- `sheet_common.py` — shared env loader + auth helpers
+- Auto-managed columns: Company, Role, Headline, Theme, HTML, PDF, Updated
+- Manual columns (never overwritten by sync): Status, Date Applied, Source, Contact, Next Action, Notes
+- Credentials JSON lives in `_creeds/` (gitignored). Do not commit.
+
 ## Deployment
 
 Pushes to `master` auto-deploy via GitHub Pages. Custom domain: `online-cv.webjeda.com` (CNAME file).

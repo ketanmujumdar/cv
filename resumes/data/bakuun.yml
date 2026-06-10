@@ -1,0 +1,218 @@
+# Bakuun - Head of Engineering
+# Overrides base.yml fields. Source of truth is base.yml structure.
+
+basics:
+  headline: "Engineering Leader | Marketplace Platforms, Payments & Multi-Market Distribution at Scale"
+
+theme:
+  primary: "#0F4C75"
+  primary_light: "#dbe7f0"
+  sidebar_bg: "#f3f6f9"
+
+summary: >-
+  Engineering leader with 17+ years of experience building and scaling
+  distributed platforms across APAC, with deep focus on marketplaces,
+  payment infrastructure, and multi-market transactional systems.
+
+  Spent 8 years at Carousell, Southeast Asia's largest classifieds
+  marketplace, progressing from Senior Engineering Manager to Head of
+  Engineering and scaling the org to 150+ engineers across Singapore,
+  India, and Indonesia. Owned the marketplace platform end-to-end:
+  listings, search and ranking, payments, seller tooling, paid
+  placements, and merchant operations across multiple markets. Drove
+  the platformization of payments, subscriptions, and API layers into
+  a reusable event-driven, API-first distributed backbone, and led
+  the integration of Laku6 (acquired Indonesian recommerce platform)
+  into the core stack, aligning architectures, payment rails, and
+  data systems across markets.
+
+  Currently VP of Engineering at YouTrip, leading a proprietary
+  multi-market fintech platform processing over $15B in annual
+  transactions across Singapore, Thailand, Malaysia, and Australia,
+  with 70+ engineers across four countries. Own platform strategy,
+  reliability, and operating model in a regulated payments
+  environment.
+
+  Background spans marketplace and transactional platforms,
+  high-throughput payment processing, multi-market distribution and
+  integration work, event-driven and API-first architectures, and
+  engineering operations through high-growth phases. I set the
+  technical bar, build the leadership layer, and own the operating
+  cadence that turns roadmap into predictable delivery against
+  commercial commitments.
+
+skills:
+  - name: Marketplace & Distribution Platforms
+    keywords:
+      - Marketplace Operations at Scale
+      - Multi-Market Platform Architecture
+      - Search, Ranking & Discovery
+      - Inventory & Listings Systems
+      - Seller & Merchant Tooling
+  - name: Payments & Transactional Systems
+    keywords:
+      - High-Throughput Payment Processing
+      - Payment Rails & Integrations
+      - Reconciliation & Financial Ops
+      - Fraud & Risk Signals
+      - Regulated Fintech Environments
+  - name: Distributed Systems
+    keywords:
+      - Microservices & Event-Driven
+      - API-First Architecture
+      - Ultra-Low Latency & HA
+      - Fault-Tolerant Design
+      - Multi-Region Workloads
+  - name: Engineering Leadership
+    keywords:
+      - Org Scaling Through Hypergrowth
+      - Operating Cadence & Delivery Rhythm
+      - Hiring, Performance & Talent Density
+      - Coaching EMs & Senior ICs
+      - Board & Exec Stakeholder Management
+  - name: Modern Practices
+    keywords:
+      - GenAI in Engineering
+      - Secure SDLC & DevSecOps
+      - Observability & SRE
+      - CI/CD & Automation
+      - Cloud-Native (AWS / GCP / K8s)
+
+experience:
+  - position: VP of Engineering
+    company: YouTrip
+    location: Singapore
+    period: "Jan 2026 - Present"
+    details:
+      - Own platform strategy, architecture, and engineering execution across four markets (Singapore, Thailand, Malaysia, Australia), partnering directly with the CEO and exec team.
+      - Lead 70+ engineers across Singapore, India, Hong Kong, and Indonesia on a proprietary multi-market fintech platform processing $15B+ in annual transactions.
+      - Reduced critical 5xx transaction errors by 31%+ through targeted reliability engineering on a high-throughput payment processing platform.
+      - Driving GenAI adoption across development, testing, and code review workflows to lift engineering productivity and code quality.
+      - Strengthening secure SDLC, observability, and operational governance across a regulated payments environment.
+
+  - company: Carousell
+    location: Singapore
+    period: "Nov 2017 - Dec 2025 (8 years)"
+    subroles:
+      - title: "Head of Engineering, Laku6 & Director of Engineering"
+        period: "Jan 2023 - Dec 2025"
+        note: "Laku6 is Carousell's Indonesia recommerce arm (acquired 2021)."
+        details:
+          - Led 50+ engineers and product managers across 3 platform teams in Singapore, India, and Indonesia, managing through EMs and Tech Leads, with quarterly OKRs driving 90%+ delivery success.
+          - Drove platformization of payments, listings, subscriptions, and API layers into a reusable event-driven, API-first distributed backbone, reducing time-to-integration for new market launches and product verticals.
+          - Led the integration of Laku6 (acquired Indonesian recommerce platform) into Carousell's core platform, aligning architectures, payment rails, inventory systems, and data systems across markets while preserving the local operating model.
+          - Owned integrations with external payment rails, financial invoicing systems, and market-specific APIs across Indonesia and Singapore, managing complex data reconciliation and high-volume transaction flows at scale.
+          - Instituted ML-powered ranking, recommendation, and discovery systems across the marketplace, directly impacting marketplace liquidity, conversion, and seller economics across multiple markets.
+          - Drove deep GenAI adoption across the engineering org (Copilot, Cursor, Claude Code, internal LLM-assisted code review and test generation tooling), maintaining and improving development velocity through a deliberate team scale-down by offsetting reduced headcount with AI-leveraged productivity gains.
+          - Shipped AI-powered internal products including LLM-assisted listing categorization, content moderation, fraud signal extraction, and seller assistant tooling, replacing manual operational workflows and reducing trust & safety review load substantially.
+          - Established engineering norms for GenAI use (prompt patterns, code review gating, security guardrails, eval frameworks) so AI-assisted output met production quality bars on a transactional marketplace platform.
+          - Led deep cloud infrastructure optimization achieving ~50% cost reduction through compute, storage, and network restructuring, improving platform economics for international growth.
+          - Owned hiring, retention, and development of senior engineering talent across Singapore, India, and Indonesia, sustaining a strong leadership layer of EMs and senior ICs accountable for platform delivery.
+      - title: "Director of Engineering, Platform & Verticals"
+        period: "Jan 2021 - Dec 2022"
+        details:
+          - Scaled engineering organization to 150+ people; directly managed 70+ engineers across Merchants, Trust & Safety, and Properties verticals (Carousell Properties is the marketplace's real estate listing platform across SG, MY, PH).
+          - Owned engineering for the paying-merchant portfolio and marketplace monetization platform across Southeast Asia, scaling revenue infrastructure that originated as a $0 function in 2017 into a multi-market engine.
+          - Built and mentored the leadership layer (EMs and senior ICs) that allowed the org to scale beyond founder-led structures, with structured career ladders, performance frameworks, and growth plans.
+          - Established the planning, prioritization, and delivery cadence (quarterly OKRs, weekly operating reviews, structured roadmap commitments) that turned product strategy into predictable shipping at scale.
+          - Scaled infrastructure for high-traffic, multi-region workloads; operationalized experimentation frameworks and event-driven pipelines for ML model integration into production.
+          - Reduced time-to-ship by ~20% through CI/CD pipeline improvements, observability investments, and engineering excellence practices across distributed Singapore and India teams.
+      - title: Senior Engineering Manager
+        period: "Nov 2017 - Dec 2020"
+        details:
+          - Joined Carousell to build the marketplace monetization function from zero, establishing it as a core engineering vertical and growing daily revenue 30x across listings, paid placements, subscriptions, and seller tooling.
+          - Led the transition from external ad inventory (Google/FB) to Carousell's first owned internal ad products and paid placements, building the marketplace monetization stack from the ground up.
+          - Led Listing Quota, one of Carousell's most significant marketplace monetization initiatives. Managed 24 direct/indirect reports across local and remote teams; partnered with Product, Data, and Finance on pricing models and experimentation.
+          - Established weekly app release cadence and championed CI/CD transformation contributing to 15% faster deployment cycles.
+
+  - position: Senior Manager
+    company: MediaCorp
+    location: Singapore
+    period: "Mar 2016 - Oct 2017"
+    details:
+      - Led platform initiatives for meWATCH OTT streaming; owned SSO across 30 properties and CI/CD reliability for high-traffic content delivery.
+
+  - position: Release Manager / Senior Developer
+    company: Zalora
+    location: Singapore
+    period: "Mar 2013 - Mar 2016"
+    details:
+      - Introduced agile and release management practices org-wide at Southeast Asia's largest fashion e-commerce marketplace; designed CI infrastructure for deployments, smoke tests, and nightly test loops.
+
+  - position: Founder / Lead Engineer
+    company: Independent
+    location: India
+    period: "2008 - 2012"
+    details:
+      - "Founded web development agency (ad-tech, SSO, content platforms); built cloud-based fleet tracking and fintech products on Ruby on Rails, PHP, JavaScript."
+
+cover_letter: |
+  Dear Bakuun Hiring Team,
+
+  I'm applying for the Head of Engineering role at Bakuun. The mandate,
+  owning engineering strategy, operating model, and organizational
+  capability for a connected platform spanning hospitality distribution,
+  marketplace operations, payment infrastructure, and property
+  management, maps directly to the work I've delivered across the past
+  decade.
+
+  I spent 8 years at Carousell, Southeast Asia's largest classifieds
+  marketplace, scaling engineering from a small team to 150+ across
+  Singapore, India, and Indonesia. I owned the marketplace platform
+  end-to-end: listings, search and ranking, payments, seller and
+  merchant tooling, and the monetization stack that grew daily revenue
+  30x. I drove the platformization of payments, subscriptions, and API
+  layers into a reusable event-driven, API-first distributed backbone,
+  and led the integration of Laku6, Carousell's acquired Indonesian
+  recommerce platform, into the core stack. That work aligned
+  architectures, payment rails, inventory systems, and data systems
+  across markets, the same kind of cross-platform consolidation a
+  multi-product hospitality platform like Bakuun lives and dies on.
+
+  The fit on the operating side is just as direct. I've built the
+  delivery cadence (quarterly OKRs, weekly operating reviews,
+  structured roadmap commitments) that turned product strategy into
+  predictable shipping at scale. I've built the leadership layer (EMs
+  and senior ICs) that lets an org scale beyond founder-led
+  structures, with career ladders, performance frameworks, and a
+  hiring bar that holds up through hypergrowth. I've made the
+  build-vs-buy calls, owned the architectural direction across
+  payments and marketplace surfaces, and represented engineering to
+  product, commercial, and exec leadership on what's committable and
+  what isn't.
+
+  Currently, as VP of Engineering at YouTrip, I lead the full
+  engineering function for a proprietary fintech platform processing
+  over $15 billion in annual transactions across Singapore, Thailand,
+  Malaysia, and Australia. I manage 70+ engineers through engineering
+  managers and tech leads. The operating mode is what the Bakuun brief
+  calls for: hands-on technical leadership across distributed systems,
+  real-time transaction reliability (I've driven a 31%+ reduction in
+  critical 5xx errors), GenAI adoption across the engineering org, and
+  partnering with Product, Security, and Platform Infrastructure on
+  long-term platform strategy in a regulated environment.
+
+  GenAI in engineering is one of the areas I've invested in most
+  deeply over the past two years. In my last year at Carousell, I
+  drove org-wide adoption of AI-assisted development (Copilot, Cursor,
+  Claude Code, internal LLM-assisted code review and test generation),
+  and shipped AI-powered internal products for listing categorization,
+  content moderation, fraud signal extraction, and seller tooling. We
+  held development velocity steady, and lifted it on several teams,
+  through a deliberate team scale-down by offsetting reduced headcount
+  with AI-leveraged productivity. I also established the engineering
+  norms (prompt patterns, code review gating, security guardrails,
+  eval frameworks) needed for AI-assisted output to meet production
+  quality bars on a transactional platform.
+
+  My core stack experience spans Python, Ruby on Rails, PHP,
+  TypeScript, React, Vue, AWS, GCP, and Kubernetes. I'm comfortable
+  going deep on distributed systems patterns (microservices,
+  event-driven, API-first, fault-tolerant design) regardless of
+  language.
+
+  I'd welcome the opportunity to discuss how my experience can help
+  Bakuun establish the architecture, standards, and delivery rhythm
+  that scale into the next decade.
+
+  Ketan Mujumdar

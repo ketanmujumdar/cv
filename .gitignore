@@ -6,3 +6,11 @@ resumes/.env
 resumes/applications/*.pdf
 resumes/output/*.pdf
 .playwright-mcp/
+
+# Credentials / secrets — NEVER commit (repo is public)
+_creeds/
+resumes/.gcreds.json
+__pycache__/
+*.pyc
+*-service-account*.json
+*-credentials*.json

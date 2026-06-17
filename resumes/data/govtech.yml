@@ -1,10 +1,214 @@
-# GovTech - Director of Engineering
-# Stub for tracker. Add overrides when ready to build the resume.
+# GovTech - Director / Deputy Director, PDO Engineering Leader
+# Overrides base.yml fields.
 
 basics:
-  headline: ""
+  headline: "Engineering Director | Multi-Squad Platform Leadership | POC-to-Scale, Secure by Design"
+  location: "Singapore (Singapore PR)"
 
 theme:
   primary: "#d52b1e"
   primary_light: "#fde2e2"
   sidebar_bg: "#fff5f5"
+
+summary: >-
+  Engineering leader with 17+ years building and scaling distributed platforms
+  across APAC, operating as a manager-of-managers across multiple squads,
+  internal staff, and vendor teams. Singapore PR, based in Singapore.
+
+  Spent 8 years at Carousell, Southeast Asia's largest classifieds marketplace,
+  progressing from Senior Engineering Manager to Head of Engineering and
+  scaling the org to 150+ engineers across Singapore, India, and Indonesia.
+  Drove platformization of payments, subscriptions, recommendations, and API
+  layers into a reusable event-driven, API-first distributed backbone,
+  promoting reuse and avoiding unnecessary complexity across teams. Led the
+  integration of Laku6, the acquired Indonesian recommerce platform, into the
+  core stack, a multi-quarter platform migration aligning architectures,
+  payment rails, and data systems across markets. In the final year, drove
+  org-wide GenAI adoption that sustained development velocity through a
+  deliberate team scale-down.
+
+  Currently VP of Engineering at YouTrip, leading a regulated fintech
+  platform processing over $15B in annual transactions across Singapore,
+  Thailand, Malaysia, and Australia, with 70+ engineers across four
+  countries. Operating mode: setting architectural vision, raising the bar
+  on secure SDLC and SRE, coaching EMs and Tech Leads, and partnering
+  closely with Product, Design, Security, and Compliance.
+
+  Practical product-delivery mindset: comfortable across the full lifecycle
+  from problem framing and POC/POV experiments through to scalable, reliable,
+  user-centred services. Known for technical credibility (still reads code
+  and reviews designs), outcome-orientation, and building lean, high-trust
+  leadership structures that deliver measurable impact.
+
+skills:
+  - name: Multi-Squad Engineering Leadership
+    keywords:
+      - Manager of Managers (EMs + Tech Leads)
+      - Vendor & Internal Team Management
+      - Cross-Squad Standards & Design Reviews
+      - Coaching & Succession Planning
+      - Lean Org Design & Restructuring
+  - name: Platform & Architecture
+    keywords:
+      - Platform Reuse & Shared Services
+      - Distributed Systems & Event-Driven
+      - API-First & Interoperability
+      - Modernisation & System Migrations
+      - Anti-Complexity / Cost-Effective Design
+  - name: Secure & Reliable by Design
+    keywords:
+      - Secure SDLC & DevSecOps
+      - SRE, Observability & Incident Response
+      - Regulated Fintech Environments
+      - Cloud-Native (AWS / GCP / Kubernetes)
+      - High-Throughput Transaction Processing
+  - name: Product Engineering & Outcomes
+    keywords:
+      - POC to Scale Lifecycle
+      - Partnering with Product & Design
+      - Experimentation & Evidence-Based Decisions
+      - Outcome-Driven OKRs
+      - User-Centred Service Delivery
+  - name: AI-Assisted Development
+    keywords:
+      - GenAI in Engineering Workflows
+      - LLM-Assisted Code Review & Test Generation
+      - Platform Automation
+      - Eval Frameworks & Quality Gates
+      - Productivity Through Tooling
+
+experience:
+  - position: VP of Engineering
+    company: YouTrip
+    location: Singapore
+    period: "Jan 2026 - Present"
+    details:
+      - Own platform strategy, architecture, and engineering execution across four markets, partnering directly with the CEO and exec team on multi-year direction.
+      - Lead 70+ engineers across Singapore, India, Hong Kong, and Indonesia through EMs and Tech Leads on a regulated fintech platform processing $15B+ in annual transactions.
+      - Set architectural standards and design-review practices across squads, balancing innovation with operational excellence and tech debt reduction.
+      - Reduced critical 5xx transaction errors by 31%+ through targeted reliability engineering and stronger SRE practices.
+      - Driving GenAI adoption across development, testing, and code review workflows to lift engineering productivity and code quality without compromising security guardrails.
+      - Strengthening secure SDLC, observability, and operational governance across a regulated fintech environment with MAS-aligned controls.
+
+  - company: Carousell
+    location: Singapore
+    period: "Nov 2017 - Dec 2025 (8 years)"
+    subroles:
+      - title: "Head of Engineering, Laku6 & Director of Engineering"
+        period: "Jan 2023 - Dec 2025"
+        note: "Laku6 is Carousell's Indonesia recommerce arm (acquired 2021)."
+        details:
+          - Led 50+ engineers and product managers across 3 platform teams in Singapore, India, and Indonesia, managing through EMs and Tech Leads, with quarterly OKRs driving 90%+ delivery success.
+          - Established unified architectural vision and cross-squad technical standards covering security, scalability, and DevOps/SRE practices.
+          - Drove platformization of payments, subscriptions, recommendations, and API layers into a reusable event-driven, API-first distributed backbone, reducing time-to-integration for new market launches and avoiding unnecessary per-team rebuilds.
+          - Led the Laku6 integration into Carousell's core platform, a major platform migration aligning architectures, payment rails, and data systems across markets while preserving local operating model.
+          - Oversaw design reviews and large-scale modernisation efforts including cloud infrastructure restructuring that yielded ~50% cost reduction across compute, storage, and network.
+          - Coached EMs and Tech Leads on technical leadership, design judgement, and outcome ownership; restructured teams to align talent with the highest-impact opportunities.
+          - Managed mixed internal and vendor engineering capacity across markets, setting consistent quality bars and delivery standards.
+          - Drove deep GenAI adoption across the org (Copilot, Cursor, Claude Code, internal LLM-assisted code review and test generation), sustaining development velocity through a deliberate scale-down by offsetting reduced headcount with AI-leveraged productivity.
+          - Shipped AI-powered internal products including LLM-assisted listing categorization, content moderation, fraud signal extraction, and seller tooling, replacing manual operational workflows and reducing trust & safety review load substantially.
+          - Established engineering norms for GenAI use (prompt patterns, code review gating, security guardrails, eval frameworks) so AI-assisted output met production quality bars.
+      - title: "Director of Engineering, Platform & Verticals"
+        period: "Jan 2021 - Dec 2022"
+        details:
+          - Scaled engineering organization to 150+ people; directly managed 70+ engineers across Merchants, Trust & Safety, and Properties verticals through EMs and Tech Leads.
+          - Set platform-wide architecture, tools, and practices that improved org-wide scalability, security, and velocity; balanced innovation with BAU tech debt reduction.
+          - Built and mentored the leadership layer (EMs and senior ICs) that allowed the org to scale beyond founder-led structures, with structured career ladders and growth plans.
+          - Partnered with Product and Data Science to translate user problems into measurable outcomes via experimentation frameworks and event-driven ML integration.
+          - Reduced time-to-ship by ~20% through CI/CD pipeline improvements, observability investments, and engineering excellence practices across distributed Singapore and India teams.
+      - title: Senior Engineering Manager
+        period: "Nov 2017 - Dec 2020"
+        details:
+          - Joined Carousell to build the monetization function from zero, taking it through the full lifecycle from problem framing and POC experiments to scaled, reliable production services across listings, ads, subscriptions, and paid placements.
+          - Led Listing Quota, one of Carousell's most significant monetization initiatives; managed 24 direct/indirect reports across local and remote teams; partnered with Product, Data, and Finance on pricing models and experimentation.
+          - Established weekly app release cadence and championed CI/CD transformation contributing to 15% faster deployment cycles.
+
+  - position: Senior Manager
+    company: MediaCorp
+    location: Singapore
+    period: "Mar 2016 - Oct 2017"
+    details:
+      - Led platform initiatives for meWATCH OTT streaming; owned SSO across 30 properties and CI/CD reliability for high-traffic content delivery, an early public-facing platform-consolidation programme across a large Singapore media estate.
+
+  - position: Release Manager / Senior Developer
+    company: Zalora
+    location: Singapore
+    period: "Mar 2013 - Mar 2016"
+    details:
+      - Introduced agile and release management practices org-wide; designed CI infrastructure for deployments, smoke tests, and nightly test loops across distributed engineering teams.
+
+  - position: Founder / Lead Engineer
+    company: Independent
+    location: India
+    period: "2008 - 2012"
+    details:
+      - "Founded web development agency (ad-tech, SSO, content platforms); built cloud-based fleet tracking and fintech products on Ruby on Rails, PHP, JavaScript."
+
+cover_letter: |
+  Dear GovTech Hiring Team,
+
+  I'm applying for the PDO Engineering Leader (Director / Deputy Director)
+  role within GDT CTOF. I'm a Singapore Permanent Resident, based in
+  Singapore, and the chance to put 17 years of platform leadership behind
+  Smart Nation outcomes is the kind of mission I want my next chapter to be
+  about.
+
+  The PDO mandate maps directly to how I already operate. I act as a
+  manager-of-managers across multiple squads, set architectural vision and
+  cross-squad standards, and balance innovation with the unglamorous BAU
+  work (tech debt, reliability, security) that keeps services trustworthy.
+  I've built capability across both internal staff and vendor teams,
+  coached EMs and Tech Leads through the shift from delivery to leadership,
+  and reshaped org structures to align talent with the highest-impact
+  opportunities.
+
+  Across 8 years at Carousell I scaled engineering to 150+ across Singapore,
+  India, and Indonesia. I drove platformization of payments, subscriptions,
+  recommendations, and API layers into a reusable event-driven, API-first
+  distributed backbone, the kind of shared-platform thinking that promotes
+  reuse and avoids the duplicated complexity GovTech is trying to reduce
+  across Ministries. I led the integration of Laku6, our acquired
+  Indonesian recommerce arm, into the core stack, a multi-quarter platform
+  migration aligning architectures, payment rails, and data systems across
+  markets while preserving the local operating model. I also led a deep
+  cloud restructuring that yielded ~50% infrastructure cost reduction.
+  Public-sector tech has a similar shape: many agency contexts, one
+  coherent technical direction, sustained pressure to keep services
+  cost-effective and adaptable.
+
+  In my final year at Carousell I drove org-wide GenAI adoption (Copilot,
+  Cursor, Claude Code, internal LLM-assisted code review and test
+  generation) and shipped AI-powered internal products for listing
+  categorization, content moderation, fraud signal extraction, and seller
+  tooling. The concrete outcome: development velocity was sustained, and
+  on several teams improved, through a deliberate scale-down by offsetting
+  reduced headcount with AI-leveraged productivity. I also established the
+  engineering norms (prompt patterns, code review gating, security
+  guardrails, eval frameworks) needed for AI-assisted output to meet
+  production quality bars. This is the "curious and evolving" practice
+  GovTech describes, with real production miles on it.
+
+  Currently, as VP of Engineering at YouTrip, I own the full engineering
+  function for a regulated fintech platform processing over $15B in annual
+  transactions across Singapore, Thailand, Malaysia, and Australia. I
+  manage 70+ engineers through EMs and Tech Leads. The day-to-day is what
+  the PDO brief calls for: technical credibility (I still read code and
+  drive design reviews), secure-and-reliable by design (we've driven a
+  31%+ reduction in critical 5xx errors and tightened secure SDLC), and
+  partnering with Product, Security, and Compliance on multi-year
+  platform direction in a regulated environment.
+
+  I'm comfortable across the full product lifecycle, from problem framing
+  and POC/POV experiments to scaled production services. I default to
+  evidence-based decisions, outcome-oriented OKRs, and clear communication
+  with both engineers and senior non-technical stakeholders. I'm an
+  ecosystem thinker by instinct: my Carousell platform work was largely
+  about balancing the needs of individual product teams with org-wide
+  alignment, reuse, and capability growth, which is exactly the tension a
+  PDO Engineering Leader is asked to resolve at Ministry scale.
+
+  I'd welcome the chance to discuss how I can help GDT CTOF lift
+  engineering capability and delivery outcomes across the Ministry estate.
+
+  Ketan Mujumdar
+  Singapore PR

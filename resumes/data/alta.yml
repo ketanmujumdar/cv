@@ -1,0 +1,205 @@
+# Alta - Chief Technology/Product Officer
+# Digital securities exchange, tokenization, private markets, PMaaS platform
+# Source: Ryan De Melo (direct, no recruiter)
+# Overrides base.yml fields.
+
+basics:
+  headline: "CTO / CPO | API-First Platform at Scale | Regulated Fintech | Multi-Country Engineering Org"
+  location: "Singapore"
+
+theme:
+  primary: "#0f3460"
+  primary_light: "#dce8f5"
+  sidebar_bg: "#f5f8fc"
+
+summary: >-
+  Engineering leader with 17+ years building and scaling API-first, event-driven
+  platforms across APAC - fintech, marketplace, and digital-infrastructure
+  contexts. Currently VP of Engineering at YouTrip, operating in a MAS-regulated
+  environment on a proprietary multi-market platform processing $15B+ in annual
+  transactions. Before that, 8 years at Carousell scaling engineering to 150+
+  across Singapore, India, and Indonesia, owning product and platform strategy,
+  and building the commercial monetization engine from a $0 function into a
+  multi-market revenue layer.
+
+  The Alta CTO/CPO mandate maps directly to how I operate. I own both product
+  direction and engineering execution - translating commercial and regulatory
+  priorities into platform roadmap, partnering closely with CEOs and commercial
+  leaders on positioning and packaging, and leading heads of Product, Engineering,
+  Data, and QA across distributed teams. I've built and managed multi-tenant,
+  API-first platforms designed for white-label extensibility and multi-client
+  scale - exactly the architecture pattern underlying PMaaS. I've driven
+  platformization that reduces time-to-onboarding for new markets and partners,
+  prioritized an AI-augmented development lifecycle alongside compliance controls in a regulated fintech
+  environment, and managed the cross-functional alignment across Technology,
+  Operations, Legal, and Compliance that capital markets infrastructure demands.
+
+  Experienced in building and nurturing high-ownership, high-collaboration
+  engineering cultures across Singapore, India, and Indonesia - the same
+  multi-country footprint Alta operates. Ready to bring the same rigour to
+  digital securities, private markets infrastructure, and the PMaaS opportunity.
+
+skills:
+  - name: Technology & Product Strategy
+    keywords:
+      - CTO / CPO Scope
+      - Platform Roadmap & Commercial Alignment
+      - PMaaS / White-Label Architecture
+      - CEO & Board Partnership
+      - Build-vs-Buy & Make-vs-Partner
+  - name: Platform & Architecture
+    keywords:
+      - Multi-Tenant API-First Platforms
+      - Event-Driven & Distributed Systems
+      - Microservices & Service Mesh
+      - Third-Party Integration & Interoperability
+      - High-Throughput Transaction Processing
+  - name: Regulated Fintech & Compliance
+    keywords:
+      - MAS-Regulated Environments
+      - AI Dev Lifecycle & DevSecOps
+      - Regulatory Audits & Due Diligence
+      - Compliance-by-Design Architecture
+      - Penetration Testing & Security Assurance
+  - name: Engineering Leadership & Culture
+    keywords:
+      - Heads of Product, Engineering, Data, QA
+      - Multi-Country Distributed Teams
+      - Hiring, Succession & Talent Development
+      - High-Ownership Engineering Culture
+      - OKR-Driven Portfolio Planning
+  - name: AI / Data & Observability
+    keywords:
+      - AI-Augmented Development Lifecycle
+      - ML-Powered Product Features
+      - Observability & SRE Practices
+      - Experimentation & Analytics Platforms
+      - Cost Optimization at Scale
+
+experience:
+  - position: VP of Engineering
+    company: YouTrip
+    location: Singapore
+    period: "Jan 2026 - Jun 2026"
+    details:
+      - Own platform strategy, architecture, and engineering execution across four markets, partnering directly with the CEO and exec team on multi-year technology direction.
+      - Lead 70+ engineers across Singapore, India, Hong Kong, and Indonesia on a MAS-regulated, proprietary multi-market fintech platform processing $15B+ in annual transactions.
+      - Drive an AI-augmented development lifecycle - AI-assisted coding, code review, and test generation embedded into engineering practice - while maintaining MAS-aligned secure development controls and audit readiness.
+      - Reduced critical 5xx transaction errors by 31%+ through targeted reliability engineering and a cross-squad operational review cadence, turning reliability into an exec-visible scorecard.
+      - Partner with Product, Compliance, Legal, and external regulators to align technology decisions with regulatory requirements and commercial priorities.
+      - Drive GenAI adoption across development, testing, and code review workflows; established engineering norms for AI-assisted output quality and security guardrails.
+
+  - company: Carousell
+    location: Singapore
+    period: "Nov 2017 - Dec 2025 (8 years)"
+    subroles:
+      - title: "Head of Engineering, Laku6 & Director of Engineering"
+        period: "Jan 2023 - Dec 2025"
+        note: "Laku6 is Carousell's Indonesia recommerce arm (acquired 2021)."
+        details:
+          - Led 50+ engineers and product managers across 3 platform teams in Singapore, India, and Indonesia, managing through EMs and Tech Leads with quarterly OKRs driving 90%+ delivery success.
+          - Owned product and platform strategy jointly with product leadership - setting multi-quarter roadmap, managing trade-offs between regulatory, commercial, and platform priorities, and representing technology to senior stakeholders.
+          - Drove platformization of payments, subscriptions, recommendations, and API layers into a reusable event-driven, API-first distributed backbone - a modular, white-label-ready architecture that reduced time-to-integration for new markets and partners, the same model underlying PMaaS.
+          - Led the integration of Laku6 into Carousell's core platform, a multi-quarter programme aligning architectures, payment rails, and data systems across markets while preserving the local operating model - analogous to onboarding a new PMaaS client with a distinct regulatory and operational context.
+          - Owned integrations with external payment rails, financial invoicing systems, and market-specific APIs across Indonesia and Singapore, managing data reconciliation and high-volume transaction flows at scale.
+          - Led cloud infrastructure optimization achieving ~50% cost reduction through compute, storage, and network restructuring, improving platform economics for international growth.
+          - Transformed the engineering development lifecycle with AI - embedding AI assistance across requirements, coding, code review, testing, and deployment using Copilot, Cursor, Claude Code, and internal LLM tooling - sustaining and improving velocity through a deliberate headcount scale-down.
+          - Shipped AI-powered internal products including LLM-assisted listing categorization, content moderation, fraud signal extraction, and seller tooling, replacing manual operational workflows at scale.
+          - Owned hiring, retention, and development of senior engineering talent across three countries, sustaining a strong leadership layer accountable for platform delivery.
+      - title: "Director of Engineering, Platform & Verticals"
+        period: "Jan 2021 - Dec 2022"
+        details:
+          - Scaled engineering organization to 150+ people; directly managed 70+ engineers across Merchants, Trust & Safety, and Properties verticals through EMs and Tech Leads.
+          - Owned engineering for the paying-merchant portfolio and monetization platform across Southeast Asia, scaling a commercial revenue function from $0 into a multi-market engine.
+          - Partnered with Product and Data Science to deliver monetization, recommendation, and engagement features; improved ARPU and user retention across verticals.
+          - Reduced time-to-ship by ~20% through CI/CD pipeline improvements, observability investments, and engineering excellence practices.
+          - Built and mentored the leadership layer (EMs and senior ICs) that allowed the org to scale beyond founder-led structures, with structured career ladders and succession plans.
+      - title: Senior Engineering Manager
+        period: "Nov 2017 - Dec 2020"
+        details:
+          - Joined to build the monetization function from zero - took it through full lifecycle from problem framing and POC to scaled production services, growing daily revenue 30x across listings, ads, subscriptions, and paid placements.
+          - Led Listing Quota, one of Carousell's most significant monetization initiatives; managed 24 direct/indirect reports; partnered with Product, Data, and Finance on pricing models and experimentation.
+          - Established weekly app release cadence and championed CI/CD transformation contributing to 15% faster deployment cycles.
+
+  - position: Senior Manager
+    company: MediaCorp
+    location: Singapore
+    period: "Mar 2016 - Oct 2017"
+    details:
+      - Led platform initiatives for meWATCH OTT streaming; owned SSO across 30 properties and CI/CD reliability for high-traffic content delivery.
+
+  - position: Release Manager / Senior Developer
+    company: Zalora
+    location: Singapore
+    period: "Mar 2013 - Mar 2016"
+    details:
+      - Introduced agile and release management practices org-wide; designed CI infrastructure for deployments, smoke tests, and nightly test loops.
+
+  - position: Founder / Lead Engineer
+    company: Independent
+    location: India
+    period: "2008 - 2012"
+    details:
+      - "Founded web development agency (ad-tech, SSO, content platforms); built cloud-based fleet tracking and fintech products on Ruby on Rails, PHP, JavaScript."
+
+cover_letter: |
+  Dear Alta Hiring Team,
+
+  I'm applying for the Chief Technology/Product Officer role. I'm based in
+  Singapore and the chance to shape the technology foundation for Southeast
+  Asia's largest alternative-asset marketplace is exactly the kind of
+  consequential infrastructure challenge I want my next chapter to be about.
+
+  The CTO/CPO mandate at Alta sits at the intersection of platform
+  architecture, commercial strategy, regulatory rigour, and cross-functional
+  leadership - which maps directly to how I've operated across the past several
+  years. At YouTrip I own both technology strategy and engineering execution
+  across four markets on a MAS-regulated fintech platform processing $15B+ in
+  annual transactions, partnering directly with the CEO and exec team on
+  multi-year direction. At Carousell I held the combined product-and-platform
+  brief for the monetization and seller-services org, building a commercial
+  revenue function from a $0 mandate into a multi-market engine and scaling
+  the engineering org to 150+ across Singapore, India, and Indonesia.
+
+  On the platform architecture side, what Carousell called "platformization"
+  is structurally identical to what Alta calls PMaaS. I drove the transition
+  of payments, subscriptions, recommendations, and API layers into a reusable,
+  event-driven, API-first distributed backbone - a modular, white-label-ready
+  architecture that reduced time-to-integration for new markets and partners.
+  I led the integration of Laku6 (Carousell's acquired Indonesian platform)
+  into the core stack, a multi-quarter programme aligning architectures,
+  payment rails, and data systems across markets while preserving the local
+  operating model. That is the same shape as onboarding a boutique brokerage
+  or major bank onto PMaaS with their own regulatory context and operating
+  constraints. I've owned integrations with external payment rails, financial
+  systems, and market-specific APIs at high volume, and I've led cloud
+  restructuring that yielded ~50% infrastructure cost reduction - important
+  for a platform that needs to remain commercially attractive at global scale.
+
+  On the regulatory and security side, I've operated inside MAS-regulated
+  environments throughout my recent tenure. At YouTrip I own the AI-augmented
+  development lifecycle, compliance controls, and audit readiness, and I represent
+  Technology in security reviews and partner due-diligence processes. I
+  understand how to maintain technical velocity while keeping compliance
+  posture tight - a balance that is fundamental to the trust Alta's exchange
+  model depends on.
+
+  On the people and culture side, I lead heads of Product, Engineering, Data,
+  and QA across distributed Singapore, India, and Indonesia teams - the same
+  multi-country footprint Alta operates. I've built high-ownership, low-ego
+  cultures where senior ICs and EMs feel accountable for outcomes, not just
+  delivery. I make periodic visits to remote offices to strengthen alignment
+  and culture. I've hired and developed the leadership layer that allows
+  organisations to scale beyond founder-led structures.
+
+  What I don't have is prior capital-markets or tokenization domain experience.
+  I want to be direct about that. What I do bring is a deep track record of
+  building the kind of platform infrastructure Alta needs to grow PMaaS
+  globally - API-first, multi-tenant, secure by design, commercially oriented,
+  with the engineering culture to sustain it. The domain is learnable; the
+  platform and leadership patterns are what I've been doing for a decade.
+
+  I'd welcome the chance to explore this with you.
+
+  Ketan Mujumdar
+  Singapore

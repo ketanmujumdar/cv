@@ -66,6 +66,52 @@ def render_html(data: dict, template_name: str = "modern") -> str:
     return template.render(**data)
 
 
+def generate_simple_pdf(html_path: Path, pdf_path: Path):
+    """Generate a simple PDF (no custom header/footer, full margins from template)."""
+    script = f"""
+const {{ chromium }} = require('playwright');
+(async () => {{
+    const browser = await chromium.launch();
+    const page = await browser.newPage();
+    await page.goto('file://{html_path.resolve()}', {{ waitUntil: 'networkidle' }});
+    await page.pdf({{
+        path: '{pdf_path.resolve()}',
+        format: 'A4',
+        printBackground: true,
+        margin: {{ top: '0mm', right: '0mm', bottom: '0mm', left: '0mm' }}
+    }});
+    await browser.close();
+}})();
+"""
+    try:
+        result = subprocess.run(["node", "-e", script], capture_output=True, text=True, timeout=30)
+        if result.returncode == 0:
+            print(f"  PDF: {pdf_path}")
+            return
+    except (FileNotFoundError, subprocess.TimeoutExpired):
+        pass
+
+    try:
+        from playwright.sync_api import sync_playwright
+        with sync_playwright() as p:
+            browser = p.chromium.launch()
+            page = browser.new_page()
+            page.goto(f"file://{html_path.resolve()}", wait_until="networkidle")
+            page.pdf(
+                path=str(pdf_path),
+                format="A4",
+                print_background=True,
+                margin={"top": "0mm", "right": "0mm", "bottom": "0mm", "left": "0mm"},
+            )
+            browser.close()
+        print(f"  PDF: {pdf_path}")
+        return
+    except ImportError:
+        pass
+
+    print("  PDF skipped: install 'playwright' for PDF generation.")
+
+
 def generate_pdf(html_path: Path, pdf_path: Path, name: str = "", sidebar_bg: str = "#f8fafc"):
     """Generate PDF from HTML using Playwright. Adds a name + page-number header on every page,
     with a background gradient matching the sidebar so the header visually continues the layout."""
@@ -198,6 +244,15 @@ def build(company: str, template: str = "modern", pdf: bool = False):
         name = (data.get("basics") or {}).get("name", "")
         sidebar_bg = (data.get("theme") or {}).get("sidebar_bg", "#f8fafc")
         generate_pdf(html_path, pdf_path, name, sidebar_bg)
+
+    if data.get("cover_letter"):
+        cover_html = render_html(data, "cover_letter")
+        cover_html_path = OUTPUT_DIR / f"{company}_cover.html"
+        cover_html_path.write_text(cover_html)
+        print(f"  COVER HTML: {cover_html_path}")
+        if pdf:
+            cover_pdf_path = OUTPUT_DIR / f"{company}_cover.pdf"
+            generate_simple_pdf(cover_html_path, cover_pdf_path)
 
 
 def main():

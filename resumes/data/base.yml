@@ -31,16 +31,17 @@ summary: >-
   GenAI adoption, sustaining and lifting development velocity through a
   deliberate team scale-down.
 
-  Currently VP of Engineering at YouTrip, leading a distributed fintech
-  platform processing over $15B in annual transactions across Singapore,
-  Thailand, Malaysia, and Australia, with 70+ engineers across four countries.
+  Most recently VP of Engineering at YouTrip (Jan - Jun 2026), led a
+  distributed fintech platform processing over $15B in annual transactions
+  across Singapore, Thailand, Malaysia, and Australia, with 70+ engineers
+  across four countries.
 
   Background spans high-throughput transaction processing, monetization and
   engagement platforms, event-driven and API-first architectures, multi-market
   integrations, and engineering operations at scale. Passionate about technical
   excellence, building high-performing globally-distributed teams, and
   modernizing engineering practices including GenAI-assisted development,
-  observability, and secure SDLC.
+  observability, and AI-augmented development lifecycles.
 
 skills:
   - name: Engineering Leadership
@@ -70,7 +71,7 @@ skills:
       - CI/CD & DevOps
       - Cost Optimization
       - SRE & Incident Management
-      - Secure SDLC
+      - AI-Augmented Dev Lifecycle
 
 education:
   - degree: "BSc Computer Science"
@@ -92,13 +93,14 @@ experience:
   - position: VP of Engineering
     company: YouTrip
     location: Singapore
-    period: "Jan 2026 - Present"
+    period: "Jan 2026 - Jun 2026"
     details:
       - Own platform strategy, architecture, and engineering execution across four markets, partnering directly with the CEO and exec team.
       - Leading 70+ engineers across Singapore, India, Hong Kong, and Indonesia on a proprietary multi-market fintech platform processing $15B+ in annual transactions.
-      - Reduced critical 5xx transaction errors by 31%+ through targeted reliability engineering on a high-throughput transaction processing platform.
+      - Carried the Weekly Operational Review (WOR) practice across from Carousell, a recurring cross-squad forum on SLO posture, error-budget burn, latency regressions, incident actions, and capacity headroom, turning reliability into a measurable exec-visible scorecard.
+      - Reduced critical 5xx transaction errors by 31%+ through targeted reliability engineering and the WOR cadence above, on a high-throughput transaction processing platform.
       - Driving GenAI adoption across development, testing, and code review workflows to lift engineering productivity and code quality.
-      - Strengthening secure SDLC, observability, and operational governance across a regulated fintech environment.
+      - Driving an AI-augmented development lifecycle - AI-assisted coding, review, and test generation - alongside observability and operational governance in a regulated fintech environment.
 
   - company: Carousell
     location: Singapore
@@ -117,6 +119,7 @@ experience:
           - Shipped AI-powered internal products including LLM-assisted listing categorization, content moderation, fraud signal extraction, and seller assistant tooling, replacing manual operational workflows and reducing trust & safety review load substantially.
           - Established engineering norms for GenAI use (prompt patterns, code review gating, security guardrails, eval frameworks) so AI-assisted output met production quality bars.
           - Led deep cloud infrastructure optimization achieving ~50% cost reduction through compute, storage, and network restructuring, improving platform economics for international growth.
+          - Instituted the Weekly Operational Review (WOR), a cross-squad cadence covering SLO posture, error-budget burn, latency, capacity, and post-incident actions, which became the standing operational scorecard for the org and the template later carried into YouTrip.
           - Owned hiring, retention, and development of senior engineering talent across Singapore, India, and Indonesia, sustaining a strong leadership layer of EMs and senior ICs accountable for platform delivery.
       - title: "Director of Engineering, Platform & Verticals"
         period: "Jan 2021 - Dec 2022"

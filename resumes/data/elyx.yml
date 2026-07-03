@@ -1,0 +1,123 @@
+# Elyx - Head of Engineering
+# Singapore concierge longevity/healthspan service (Raffles Hotel Arcade)
+# Source: Direct application
+# Applied: ~2026-06-23
+# Round 1: 2026-06-29 with COO
+# Round 2: Pending - tech interview
+
+basics:
+  headline: "Head of Engineering | Platform Scaling | Consumer Health Tech | APAC Engineering Leadership"
+  location: "Singapore"
+
+theme:
+  primary: "#1a6b4a"
+  primary_light: "#d4ede3"
+  sidebar_bg: "#f4faf7"
+
+summary: >-
+  Engineering leader with 17+ years building and scaling consumer-facing platforms
+  across APAC - fintech, marketplace, and digital-health contexts. Currently VP of
+  Engineering at YouTrip, leading 70+ engineers across four markets on a MAS-regulated
+  fintech platform processing $15B+ in annual transactions. Before that, 8 years at
+  Carousell scaling engineering to 150+ across Singapore, India, and Indonesia.
+
+  At Elyx, the Head of Engineering mandate is about building the technology foundation
+  that makes personalized, data-driven healthspan optimization scalable - from member
+  data management and protocol delivery to integrations with health-measurement
+  systems and concierge workflows. I've built and led engineering teams that translate
+  complex, high-stakes product experiences into reliable, secure, and extensible
+  platform infrastructure. I've operated in regulated environments (MAS), led
+  AI-augmented development lifecycles, and shipped data-intensive features across
+  consumer and B2B contexts.
+
+  Singapore-based, with a track record of building high-ownership engineering cultures
+  that scale without sacrificing quality or pace.
+
+skills:
+  - name: Engineering Leadership
+    keywords:
+      - Head of Engineering scope
+      - Team building and hiring
+      - Engineering culture and ownership
+      - Career development and succession
+      - OKR-driven planning
+  - name: Platform & Architecture
+    keywords:
+      - API-first and event-driven systems
+      - Microservices and distributed architecture
+      - Data pipelines and integrations
+      - Consumer-facing platform reliability
+      - Security and compliance by design
+  - name: AI & Data
+    keywords:
+      - AI-augmented development lifecycle
+      - LLM-powered product features
+      - Personalization and recommendation systems
+      - Observability and analytics platforms
+      - ML-assisted workflows
+  - name: Product & Delivery
+    keywords:
+      - Agile and OKR-driven delivery
+      - CI/CD and DevSecOps
+      - Cross-functional stakeholder alignment
+      - Build-vs-buy decisions
+      - Rapid iteration and velocity
+
+experience:
+  - position: VP of Engineering
+    company: YouTrip
+    location: Singapore
+    period: "Jan 2026 - Jun 2026"
+    details:
+      - Own platform strategy, architecture, and engineering execution across four markets, partnering directly with the CEO and exec team on multi-year technology direction.
+      - Lead 70+ engineers across Singapore, India, Hong Kong, and Indonesia on a MAS-regulated, proprietary multi-market fintech platform processing $15B+ in annual transactions.
+      - Drive an AI-augmented development lifecycle - AI-assisted coding, code review, and test generation embedded into engineering practice - while maintaining MAS-aligned secure development controls and audit readiness.
+      - Reduced critical 5xx transaction errors by 31%+ through targeted reliability engineering and a cross-squad operational review cadence, turning reliability into an exec-visible scorecard.
+      - Partner with Product, Compliance, Legal, and external regulators to align technology decisions with regulatory requirements and commercial priorities.
+
+  - company: Carousell
+    location: Singapore
+    period: "Nov 2017 - Dec 2025 (8 years)"
+    subroles:
+      - title: "Head of Engineering, Laku6 & Director of Engineering"
+        period: "Jan 2023 - Dec 2025"
+        note: "Laku6 is Carousell's Indonesia recommerce arm (acquired 2021)."
+        details:
+          - Led 50+ engineers and product managers across 3 platform teams in Singapore, India, and Indonesia, managing through EMs and Tech Leads with quarterly OKRs driving 90%+ delivery success.
+          - Owned product and platform strategy jointly with product leadership - setting multi-quarter roadmap and managing trade-offs between regulatory, commercial, and platform priorities.
+          - Drove platformization of payments, subscriptions, recommendations, and API layers into a reusable event-driven, API-first distributed backbone.
+          - Transformed the engineering development lifecycle with AI - embedding AI assistance across requirements, coding, code review, testing, and deployment.
+          - Shipped AI-powered internal products including LLM-assisted listing categorization, content moderation, fraud signal extraction, and seller tooling.
+          - Led cloud infrastructure optimization achieving ~50% cost reduction through compute, storage, and network restructuring.
+      - title: "Director of Engineering, Platform & Verticals"
+        period: "Jan 2021 - Dec 2022"
+        details:
+          - Scaled engineering organization to 150+ people; directly managed 70+ engineers across Merchants, Trust & Safety, and Properties verticals through EMs and Tech Leads.
+          - Owned engineering for the paying-merchant portfolio and monetization platform across Southeast Asia, scaling revenue from $0 into a multi-market engine.
+          - Reduced time-to-ship by ~20% through CI/CD pipeline improvements, observability investments, and engineering excellence practices.
+      - title: Senior Engineering Manager
+        period: "Nov 2017 - Dec 2020"
+        details:
+          - Built the monetization function from zero through full lifecycle - POC to scaled production, growing daily revenue 30x across listings, ads, subscriptions, and paid placements.
+          - Managed 24 direct/indirect reports; partnered with Product, Data, and Finance on pricing models and experimentation.
+
+  - position: Senior Manager
+    company: MediaCorp
+    location: Singapore
+    period: "Mar 2016 - Oct 2017"
+    details:
+      - Led platform initiatives for meWATCH OTT streaming; owned SSO across 30 properties and CI/CD reliability for high-traffic content delivery.
+
+  - position: Release Manager / Senior Developer
+    company: Zalora
+    location: Singapore
+    period: "Mar 2013 - Mar 2016"
+    details:
+      - Introduced agile and release management practices org-wide; designed CI infrastructure for deployments, smoke tests, and nightly test loops.
+
+  - position: Founder / Lead Engineer
+    company: Independent
+    location: India
+    period: "2008 - 2012"
+    details:
+      - "Founded web development agency (ad-tech, SSO, content platforms); built cloud-based fleet tracking and fintech products on Ruby on Rails, PHP, JavaScript."

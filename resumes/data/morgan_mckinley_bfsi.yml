@@ -1,0 +1,211 @@
+# Morgan McKinley - Head of Technology, BFSI (Asset Management / Fintech)
+# Contact: jho@morganmckinley.com (Ho Ji Keat, Joey - EA Reg R1983255)
+# Overrides base.yml fields.
+
+basics:
+  headline: "Head of Technology | Hands-On Architect | AI-Native Engineering Leader in Regulated BFSI"
+
+theme:
+  primary: "#0b3d2e"
+  primary_light: "#d8e9e2"
+  sidebar_bg: "#f5f9f7"
+
+summary: >-
+  Hands-on engineering leader with 17+ years across APAC building and scaling
+  distributed platforms in regulated environments, with a current focus on
+  embedding AI deeply into both the engineering function and the products
+  themselves.
+
+  Currently VP of Engineering at YouTrip, a regulated fintech platform
+  processing over $15B in annual transactions across Singapore, Thailand,
+  Malaysia, and Australia, leading 70+ engineers across four countries.
+  Operate as the architectural anchor: still in code and design reviews
+  daily, owning system design, data architecture, secure SDLC, and cloud
+  infrastructure across markets. Drove a 31%+ reduction in critical 5xx
+  transaction errors through targeted reliability engineering on a
+  high-throughput card and FX platform.
+
+  Spent the prior 8 years at Carousell, scaling engineering from a small
+  team to 150+ across Singapore, India, and Indonesia. Built the
+  monetization and engagement platform from a $0 function into a multi-market
+  revenue engine, drove platformization of payments, subscriptions, and APIs
+  into an event-driven distributed backbone, and led the integration of the
+  acquired Laku6 Indonesian recommerce platform into the core stack.
+
+  AI-native operator. In the past two years drove org-wide GenAI adoption
+  (Copilot, Cursor, Claude Code, internal LLM-assisted code review, test
+  generation, design review, and on-call assistants), sustaining and lifting
+  development velocity through a deliberate team scale-down. Shipped
+  AI-powered internal products replacing manual operational workflows
+  (categorization, content moderation, fraud signal extraction, seller
+  tooling). Established the engineering norms (prompt patterns, eval
+  frameworks, code review gating, security guardrails, data-handling
+  policies) required for AI output to meet production quality bars on
+  high-throughput transaction systems in a regulated environment.
+
+  Background spans high-throughput transaction processing, cloud
+  infrastructure and DevOps at scale (~50% infra cost reduction at
+  Carousell), secure SDLC and DevSecOps, multi-market APAC operations,
+  and engineering org design from zero-to-150+.
+
+skills:
+  - name: AI / ML in Regulated Engineering
+    keywords:
+      - Org-Wide GenAI Adoption (Copilot, Cursor, Claude Code)
+      - LLM-Assisted Code Review & Test Generation
+      - AI Coding Agents & Internal Dev Tooling
+      - Prompt Patterns, Eval Frameworks & Guardrails
+      - AI-Powered Internal Products (Moderation, Fraud, Ops Automation)
+      - Data-Handling & Model Governance in Regulated Environments
+  - name: Hands-On Architecture & Engineering
+    keywords:
+      - System Design & Code Review (still in code)
+      - Data Architecture & Event-Driven Pipelines
+      - Distributed Systems & Microservices
+      - API-First, Reusable Platform Design
+      - High-Throughput Transaction Processing
+  - name: Cloud Infrastructure & DevOps
+    keywords:
+      - AWS / GCP / Kubernetes
+      - CI/CD Pipelines & Release Engineering
+      - Observability, SRE & Incident Management
+      - Cloud Cost Optimization (~50% reduction)
+      - Infra Resilience & Multi-Region HA
+  - name: Cybersecurity & Compliance
+    keywords:
+      - Secure SDLC & DevSecOps
+      - APAC Regulatory & Data Governance
+      - Identity, SSO & Access Control
+      - Vendor & Third-Party Risk
+      - Audit-Ready Engineering Practices
+  - name: Engineering Leadership
+    keywords:
+      - Regional APAC Org Scaling
+      - Coaching EMs, Tech Leads & Senior ICs
+      - Hiring, Career Ladders & Retention
+      - Cross-Functional Partnership (Product, Risk, Compliance)
+      - Lean Org Design & Vendor Management
+
+experience:
+  - position: VP of Engineering
+    company: YouTrip
+    location: Singapore
+    period: "Jan 2026 - Present"
+    details:
+      - Own platform strategy, architecture, and engineering execution across four APAC markets for a regulated fintech processing $15B+ in annual transactions, partnering directly with the CEO and exec team.
+      - Lead 70+ engineers across Singapore, India, Hong Kong, and Indonesia on a proprietary multi-market platform; operate as the architectural anchor, still in code and design reviews.
+      - Reduced critical 5xx transaction errors by 31%+ through targeted reliability engineering on the high-throughput card and FX processing platform.
+      - Driving AI-native engineering across the org, embedding Copilot, Cursor, and Claude Code into the daily development loop, with internal LLM-assisted code review, test generation, and on-call support tooling.
+      - Strengthening secure SDLC, observability, and operational governance across a regulated fintech environment spanning multiple APAC jurisdictions.
+
+  - company: Carousell
+    location: Singapore
+    period: "Nov 2017 - Dec 2025 (8 years)"
+    subroles:
+      - title: "Head of Engineering, Laku6 & Director of Engineering"
+        period: "Jan 2023 - Dec 2025"
+        note: "Laku6 is Carousell's Indonesia recommerce arm (acquired 2021)."
+        details:
+          - Drove deep, org-wide GenAI adoption (Copilot, Cursor, Claude Code, internal LLM-assisted code review, test generation, and design review tooling), sustaining and lifting development velocity through a deliberate team scale-down by offsetting reduced headcount with AI-leveraged productivity.
+          - Shipped AI-powered internal products including LLM-assisted listing categorization, content moderation, fraud signal extraction, and seller assistant tooling, replacing manual operational workflows and substantially reducing trust & safety review load.
+          - Established engineering norms for GenAI use in production (prompt patterns, eval frameworks, code review gating, security guardrails, data-handling policies) so AI-assisted output met production quality bars on a high-throughput transaction platform.
+          - Led 50+ engineers and product managers across 3 platform teams in Singapore, India, and Indonesia, managing through EMs and Tech Leads, with quarterly OKRs driving 90%+ delivery success.
+          - Drove platformization of payments, subscriptions, recommendations, and API layers into a reusable event-driven, API-first distributed backbone, reducing time-to-integration for new market launches.
+          - Led the integration of Laku6 (acquired Indonesian recommerce platform) into Carousell's core platform, aligning architectures, payment rails, and data systems across markets while preserving local operating model.
+          - Owned integrations with external payment rails, financial invoicing systems, and market-specific APIs across Indonesia and Singapore, managing complex data reconciliation and high-volume transaction flows at scale.
+          - Led deep cloud infrastructure optimization achieving ~50% cost reduction through compute, storage, and network restructuring, improving platform economics for international growth.
+          - Owned hiring, retention, and development of senior engineering talent across Singapore, India, and Indonesia, sustaining a strong leadership layer of EMs and senior ICs accountable for platform delivery.
+      - title: "Director of Engineering, Platform & Verticals"
+        period: "Jan 2021 - Dec 2022"
+        details:
+          - Scaled engineering organization to 150+ people; directly managed 70+ engineers across Merchants, Trust & Safety, and Properties verticals.
+          - Owned engineering for the paying-merchant portfolio and monetization platform across Southeast Asia, scaling revenue infrastructure that originated as a $0 function into a multi-market engagement engine.
+          - Built and mentored the leadership layer (EMs and senior ICs) that allowed the org to scale beyond founder-led structures, with structured career ladders and growth plans.
+          - Scaled infrastructure for high-traffic, multi-region workloads; operationalized experimentation frameworks and event-driven pipelines for ML model integration into production.
+          - Reduced time-to-ship by ~20% through CI/CD pipeline improvements, observability investments, and engineering excellence practices across distributed Singapore and India teams.
+      - title: Senior Engineering Manager
+        period: "Nov 2017 - Dec 2020"
+        details:
+          - Built Carousell's monetization function from zero into a core engineering vertical, growing daily revenue 30x across listings, ads, subscriptions, and paid placements.
+          - Led the transition from external ad inventory (Google/FB) to Carousell's first owned internal ad products and paid placements.
+          - Established weekly app release cadence and championed CI/CD transformation contributing to 15% faster deployment cycles.
+
+  - position: Senior Manager
+    company: MediaCorp
+    location: Singapore
+    period: "Mar 2016 - Oct 2017"
+    details:
+      - Led platform initiatives for meWATCH OTT streaming; owned SSO across 30 properties and CI/CD reliability for high-traffic content delivery.
+
+  - position: Release Manager / Senior Developer
+    company: Zalora
+    location: Singapore
+    period: "Mar 2013 - Mar 2016"
+    details:
+      - Introduced agile and release management practices org-wide; designed CI infrastructure for deployments, smoke tests, and nightly test loops.
+
+  - position: Founder / Lead Engineer
+    company: Independent
+    location: India
+    period: "2008 - 2012"
+    details:
+      - "Founded web development agency (ad-tech, SSO, content platforms); built cloud-based fleet tracking and fintech products on Ruby on Rails, PHP, JavaScript."
+
+cover_letter: |
+  Dear Joey,
+
+  I'm writing regarding the Head of Technology role you're running for your
+  BFSI client across Asia. The brief, hands-on architectural leadership,
+  embedding AI into both engineering and the business, secure cloud
+  infrastructure across APAC, and navigating regional regulatory frameworks,
+  maps very closely to what I'm doing today and what I've built over the
+  past decade.
+
+  I'm currently VP of Engineering at YouTrip, a Singapore-headquartered
+  regulated fintech processing over $15 billion in annual transactions
+  across Singapore, Thailand, Malaysia, and Australia. I lead 70+ engineers
+  across four countries through EMs and Tech Leads, and I operate as the
+  architectural anchor: still in code and design reviews daily, owning
+  system design, data architecture, secure SDLC, and the cloud platform
+  across markets. I've driven a 31%+ reduction in critical 5xx transaction
+  errors through targeted reliability engineering, and I partner directly
+  with the CEO, Product, Risk, and Compliance on platform strategy.
+
+  AI is the area I've invested in most deeply over the past two years, and
+  where I think I can move the needle fastest for your client. At Carousell
+  I drove org-wide GenAI adoption (Copilot, Cursor, Claude Code, internal
+  LLM-assisted code review, test generation, design review, and on-call
+  assistants), and shipped AI-powered internal products for listing
+  categorization, content moderation, fraud signal extraction, and seller
+  tooling. The concrete business outcome: we sustained, and on several teams
+  lifted, development velocity through a deliberate team scale-down by
+  offsetting reduced headcount with AI-leveraged productivity. Equally
+  important, I established the engineering norms required for that to work
+  in a regulated environment, prompt patterns, eval frameworks, code review
+  gating, security guardrails, and data-handling policies, so AI-assisted
+  output met production quality bars on a high-throughput transaction
+  platform. At YouTrip I'm extending that playbook into a regulated fintech
+  setting, including agentic workflows for ops automation and AI-assisted
+  observability.
+
+  On the infrastructure and security side, I've owned regional cloud
+  estates (AWS, GCP, Kubernetes) across multiple APAC markets, led a deep
+  optimization effort at Carousell that delivered ~50% infra cost reduction,
+  and operated secure SDLC and DevSecOps practices in regulated fintech.
+  I'm comfortable working across compliance landscapes spanning Singapore
+  (MAS-adjacent for the fintech work), Indonesia, Thailand, Malaysia,
+  Australia, and Hong Kong, and used to partnering with Risk, Legal, and
+  Compliance on data governance, vendor risk, and audit readiness.
+
+  Before YouTrip and Carousell I held release engineering and platform
+  roles at MediaCorp and Zalora, and earlier ran my own engineering
+  consultancy in India delivering fintech and ad-tech products. The full
+  background spans 17+ years across APAC.
+
+  I'd welcome a conversation about the role and the client. Happy to share
+  more detail on the AI adoption playbook, the regulated fintech work, or
+  the regional org structure, whichever is most useful for your shortlist.
+
+  Best regards,
+  Ketan Mujumdar
+  Singapore | +65 8148 8737 | ketanmujumdar@gmail.com

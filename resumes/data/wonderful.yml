@@ -1,0 +1,5 @@
+# Wonderful - Forward Deployed Engineer
+# Overrides base.yml fields. Source of truth is base.yml structure.
+
+basics:
+  headline: "Engineering Leader | Platform, AI-Assisted Development & Scaling High-Performance Orgs"

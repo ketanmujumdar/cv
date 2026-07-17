@@ -6,12 +6,12 @@ basics:
   location: "Singapore (Singapore PR)"
 
 theme:
-  primary: "#d52b1e"
-  primary_light: "#fde2e2"
-  sidebar_bg: "#fff5f5"
+  primary: "#334155"
+  primary_light: "#e2e8f0"
+  sidebar_bg: "#f1f5f9"
 
 summary: >-
-  Engineering leader with 17+ years building and scaling distributed platforms
+  Engineering leader with 18+ years building and scaling distributed platforms
   across APAC, operating as a manager-of-managers across multiple squads,
   internal staff, and vendor teams. Singapore PR, based in Singapore.
 
@@ -149,7 +149,7 @@ cover_letter: |
 
   I'm applying for the PDO Engineering Leader (Director / Deputy Director)
   role within GDT CTOF. I'm a Singapore Permanent Resident, based in
-  Singapore, and the chance to put 17 years of platform leadership behind
+  Singapore, and the chance to put 18 years of platform leadership behind
   Smart Nation outcomes is the kind of mission I want my next chapter to be
   about.
 
